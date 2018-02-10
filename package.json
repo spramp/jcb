@@ -25,7 +25,6 @@
     "babel-plugin-transform-object-assign": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.11.6",
     "beeper": "^1.1.1",
     "browser-sync": "^2.23.6",
     "caniuse-lite": "^1.0.30000805",
@@ -61,5 +60,8 @@
     "vinyl": "^2.1.0",
     "webpack": "3.10.0",
     "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0"
   }
 }
