@@ -1,7 +1,7 @@
 {
   "name": "victor-hugo",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
+  "description": "A JAMstack Vanity Site for Jan Christian Bernabe",
   "repository": "netlify/victor-hugo",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "start": "gulp server",
     "lint": "eslint src"
   },
-  "author": "",
+  "author": "Jan Christian Bernabe",
   "license": "MIT",
   "dependencies": {
     "ajv": "^6.1.1",
@@ -31,6 +31,7 @@
     "caniuse-lite": "^1.0.30000805",
     "css-loader": "^0.28.9",
     "date-format": "^1.2.0",
+    "debug": "^3.1.0",
     "eslint": "^4.17.0",
     "eslint-plugin-import": "^2.8.0",
     "exports-loader": "^0.7.0",
