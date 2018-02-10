@@ -6,15 +6,15 @@
   command = "hugo --buildDrafts --buildFuture --baseURL /"
 
 [context.production.environment]
-  HUGO_VERSION = "0.35"
+  HUGO_VERSION = "0.36"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.35"
+  HUGO_VERSION = "0.36"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.35"
+  HUGO_VERSION = "0.36"
 
 [context.next.environment]
   HUGO_BASEURL = "https://next--gohugoio.netlify.com/"
