@@ -1,0 +1,48 @@
+baseurl = "/"
+title = "Jan Christian Bernabe"
+theme = "dimension-theme"
+publishDir = "public"
+layoutDir = "layouts"
+contentDir = "content"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker<!--]--><br />
+                <!--[-->Polymath<!--]-->'
+  logo = "fa-bolt"
+  copyright = "Jan Christian Bernabe, PhD"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/janchristianbernabe"
+
+[[params.social]]
+  medium = "quora"
+  icon = "quora"
+  link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://www.twitter.com/spramp"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://www.github.com/spramp"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.de]
+languageName = "Deutsch"
+weight = 2
+title = "Dimension"
+description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker<!--]--><br />
+              <!--[-->Polymath<!--]-->'
