@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "JCB",
   "version": "1.0.0",
   "description": "A JAMstack Vanity Site for Jan Christian Bernabe",
-  "repository": "netlify/victor-hugo",
+  "repository": "spramp/jcb",
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",

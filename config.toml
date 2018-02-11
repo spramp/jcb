@@ -1,19 +1,28 @@
 baseurl = "/"
-title = "Jan Christian Bernabe"
-theme = "dimension-theme"
-publishDir = "public"
-layoutDir = "public/layouts"
+config = "config.toml"
 contentDir = "public/content"
-languageCode = "en-us"
+dataDir = "public/data"
 defaultContentLanguage = "en"
+disable404 = false
+disableKinds = ["RSS"]
 enableRobotsTXT = true
-disableKinds=["RSS"]
+languageCode = "en-us"
+layoutDir = "public/layouts"
+publishDir = "public"
+theme = "dimension-theme"
+title = "Jan Christian Bernabe"
 
 [params]
   description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker<!--]--><br />
                 <!--[-->Polymath<!--]-->'
   logo = "fa-bolt"
   copyright = "Jan Christian Bernabe, PhD"
+
+[params.disqus]
+  site = "#"
+
+[params.google.analytics]
+  trackerID = "#"
 
 [[params.social]]
   medium = "linkedin"
