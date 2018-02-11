@@ -1,13 +1,18 @@
+# Dependency directories #
 node_modules/
 dist/
 src/
 
 # Logs and databases #
-######################
 *.log
 
+# Optional npm cache directory #
+.npm
+
+# Optional eslint cache #
+.eslintcache
+
 # OS generated files #
-######################
 .DS_Store
 .DS_Store?
 ._*
