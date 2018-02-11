@@ -1,4 +1,4 @@
 +++
-draft = false
-weight = 0
+tags = ["blog", "random"]
+categories = ["journal"]
 +++
