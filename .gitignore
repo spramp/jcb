@@ -1,14 +1,17 @@
 node_modules/
 dist/
 src/
-yarn-error.log
-.baelrc
-.eslintrc
-.nvmrc
-config.toml
-gulpfile.babel.js
-netlify.toml
-package.lock.json
-package.json
-webpack.conf.js
-yarn.lock
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
