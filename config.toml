@@ -9,7 +9,8 @@ disableKinds = ["RSS"]
 enableRobotsTXT = true
 languageCode = "en-us"
 layoutDir = "public/layouts"
-publishDir = "themes/dimension"
+publishDir = "public"
+themeDir = "themes"
 theme = "dimension"
 title = "Jan Christian Bernabe"
 
