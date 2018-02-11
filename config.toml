@@ -4,6 +4,7 @@ contentDir = "public/content"
 dataDir = "public/data"
 defaultContentLanguage = "en"
 disable404 = false
+disableHugoGeneratorInject = false
 disableKinds = ["RSS"]
 enableRobotsTXT = true
 languageCode = "en-us"

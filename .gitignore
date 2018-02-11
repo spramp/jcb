@@ -2,3 +2,13 @@ node_modules/
 dist/
 src/
 yarn-error.log
+.baelrc
+.eslintrc
+.nvmrc
+config.toml
+gulpfile.babel.js
+netlify.toml
+package.lock.json
+package.json
+webpack.conf.js
+yarn.lock
