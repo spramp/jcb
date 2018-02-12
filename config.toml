@@ -12,6 +12,7 @@ googleAnalytics = "#"
 languageCode = "en-us"
 layoutDir = "public/layouts"
 publishDir = "public"
+staticDir = "public/static"
 title = "Jan Christian Bernabe"
 
 [params]
