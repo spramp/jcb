@@ -1,7 +1,7 @@
 archetypeDir = "content/archetypes"
 baseurl = "/"
 config = "config.toml"
-contentDir = "content"
+contentDir = "public/content"
 dataDir = "data"
 defaultContentLanguage = "en"
 disable404 = false
