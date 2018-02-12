@@ -10,7 +10,7 @@ disableKinds = ["RSS"]
 enableRobotsTXT = true
 googleAnalytics = "#"
 languageCode = "en-us"
-layoutDir = "layouts"
+layoutDir = "public/layouts"
 publishDir = "public"
 title = "Jan Christian Bernabe"
 
