@@ -2,7 +2,7 @@ archetypeDir = "content/archetypes"
 baseurl = "/"
 config = "config.toml"
 contentDir = "public/content"
-dataDir = "data"
+dataDir = "public/data"
 defaultContentLanguage = "en"
 disable404 = false
 disableHugoGeneratorInject = false
@@ -55,6 +55,6 @@ weight = 1
 [languages.de]
 languageName = "Deutsch"
 weight = 2
-title = "Dimension"
+title = "Jan Christian Bernabe"
 description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker<!--]--><br />
               <!--[-->Polymath<!--]-->'
