@@ -1,15 +1,16 @@
-archetypeDir = "public/content/archetypes"
+archetypeDir = "content/archetypes"
 baseurl = "/"
 config = "config.toml"
-contentDir = "public/content"
-dataDir = "public/data"
+contentDir = "content"
+dataDir = "data"
 defaultContentLanguage = "en"
 disable404 = false
 disableHugoGeneratorInject = false
 disableKinds = ["RSS"]
 enableRobotsTXT = true
+googleAnalytics = "#"
 languageCode = "en-us"
-layoutDir = "public/layouts"
+layoutDir = "layouts"
 publishDir = "public"
 title = "Jan Christian Bernabe"
 

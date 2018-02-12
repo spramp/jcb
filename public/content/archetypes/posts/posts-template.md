@@ -2,7 +2,7 @@
 date = ""
 title = ""
 description = ""
-tags = ""
-categories = ""
+tags = ["blog", "random"]
+categories = ["journal"]
 draft = true
 +++
