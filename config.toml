@@ -1,3 +1,4 @@
+archetypeDir = "public/content/archetypes"
 baseurl = "/"
 config = "config.toml"
 contentDir = "public/content"
