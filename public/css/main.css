@@ -338,7 +338,7 @@ input[type="radio"] {
     -ms-user-select: none;
     user-select: none;
     color: #e4b2e4;
-    cursor: pointer;
+    cursor: url("images/poof.svg");
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 300;
@@ -518,7 +518,7 @@ ul {
         border-top: 0;
         padding-top: 0; }
   ul.icons {
-    cursor: default;
+    cursor: url("images/poof.svg");
     list-style: none;
     padding-left: 0; }
     ul.icons li {
@@ -539,7 +539,7 @@ ul {
         ul.icons li a:active {
           background-color: rgba(255, 255, 255, 0.05); }
   ul.actions {
-    cursor: default;
+    cursor: url("images/poof.svg");
     list-style: none;
     padding-left: 0; }
     ul.actions li {

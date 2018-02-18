@@ -157,7 +157,7 @@
 			@include icon;
 			@include vendor('user-select', 'none');
 			color: _palette(fg);
-			cursor: pointer;
+			cursor: url('images/poof.svg');
 			display: inline-block;
 			font-size: 0.8rem;
 			font-weight: _font(weight);
