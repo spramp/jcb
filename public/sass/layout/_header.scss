@@ -9,10 +9,10 @@
 			'filter #{_duration(article)} ease-in-out',
 			'opacity #{_duration(article)} ease-in-out',
 		));
-		background-image: -moz-linear-gradient(rgba(154,243,235,0.25) 25%, rgba(154,243,235,0) 55%);
-		background-image: -webkit-linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0) 55%);
-		background-image: -ms-linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0) 55%);
-		background-image: linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0) 55%);
+		background-image: -moz-linear-gradient(rgba(154,243,235,0.25) 25%, rgba(154,243,235,0.55) 55%);
+		background-image: -webkit-linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0.55) 55%);
+		background-image: -ms-linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0.55) 55%);
+		background-image: linear-gradient(rgba(153,243,235,0.25) 25%, rgba(154,243,235,0.55) 55%);
 		max-width: 100%;
 		text-align: center;
 
