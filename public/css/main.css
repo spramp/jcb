@@ -850,10 +850,10 @@ button {
   -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  background-image: -moz-linear-gradient(rgba(154, 243, 235, 0.25) 25%, rgba(154, 243, 235, 0.55) 55%);
-  background-image: -webkit-linear-gradient(rgba(153, 243, 235, 0.25) 25%, rgba(154, 243, 235, 0.55) 55%);
-  background-image: -ms-linear-gradient(rgba(153, 243, 235, 0.25) 25%, rgba(154, 243, 235, 0.55) 55%);
-  background-image: linear-gradient(rgba(153, 243, 235, 0.25) 25%, rgba(154, 243, 235, 0.55) 55%);
+  background-image: -moz-linear-gradient(180deg, peachpuff, #d1eeee, peachpuff);
+  background-image: -webkit-linear-gradient(180deg, peachpuff, #d1eeee, peachpuff);
+  background-image: -ms-linear-gradient(180deg, peachpuff, #d1eeee, peachpuff);
+  background-image: linear-gradient(180deg, peachpuff, #d1eeee, peachpuff);
   max-width: 100%;
   text-align: center; }
   #header > * {
