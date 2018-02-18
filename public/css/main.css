@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(css/fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -45,7 +45,7 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #1b1f22; }
+  background: #000000; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -167,7 +167,7 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
-  background: rgba(255, 255, 255, 0.075);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
@@ -275,12 +275,12 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    background: rgba(255, 255, 255, 0.075);
+    background: rgba(255, 255, 255, 0.05);
     border-color: #cd8acd;
     box-shadow: 0 0 0 1px #cd8acd; }
 
 select option {
-  background: #1b1f22;
+  background: #000000;
   color: #e4b2e4; }
 
 .select-wrapper {
@@ -375,11 +375,11 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #cd8acd !important;
     border-color: #cd8acd !important;
-    color: #1b1f22;
+    color: #000000;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    background: rgba(255, 255, 255, 0.075);
+    background: rgba(255, 255, 255, 0.05);
     border-color: #cd8acd;
     box-shadow: 0 0 0 1px #cd8acd; }
 
@@ -450,7 +450,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     pointer-events: none;
     background-image: url("/images/overlay.png");
-    background-color: rgba(19, 21, 25, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 4px;
     content: '';
     display: block;
@@ -535,9 +535,9 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          background-color: rgba(255, 255, 255, 0.075); }
+          background-color: rgba(255, 255, 255, 0.05); }
         ul.icons li a:active {
-          background-color: rgba(255, 255, 255, 0.175); }
+          background-color: rgba(255, 255, 255, 0.05); }
   ul.actions {
     cursor: default;
     list-style: none;
@@ -619,7 +619,7 @@ table {
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(255, 255, 255, 0.075); }
+      background-color: rgba(255, 255, 255, 0.05); }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -684,13 +684,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(255, 255, 255, 0.075); }
+    background-color: rgba(255, 255, 255, 0.05); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(255, 255, 255, 0.175); }
+    background-color: rgba(255, 255, 255, 0.05); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -711,7 +711,7 @@ button,
   button.special,
   .button.special {
     background-color: #cd8acd;
-    color: #1b1f22 !important;
+    color: #000000 !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
@@ -765,7 +765,7 @@ button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("/images/overlay.png");
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url("/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -935,9 +935,9 @@ button {
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
-          background-color: rgba(255, 255, 255, 0.075); }
+          background-color: rgba(255, 255, 255, 0.05); }
         #header nav ul li a:active {
-          background-color: rgba(255, 255, 255, 0.175); }
+          background-color: rgba(255, 255, 255, 0.05); }
   #header nav.use-middle:after {
     content: '';
     display: block;
@@ -1057,7 +1057,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {
@@ -1095,9 +1095,9 @@ button {
         background-size: 20px 20px;
         background-repeat: no-repeat; }
       #main article .close:hover:before {
-        background-color: rgba(255, 255, 255, 0.075); }
+        background-color: rgba(255, 255, 255, 0.05); }
       #main article .close:active:before {
-        background-color: rgba(255, 255, 255, 0.175); }
+        background-color: rgba(255, 255, 255, 0.05); }
   @media screen and (max-width: 736px) {
     #main article {
       padding: 3.5rem 2rem 0.5rem 2rem ; }
