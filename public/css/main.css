@@ -338,7 +338,7 @@ input[type="radio"] {
     -ms-user-select: none;
     user-select: none;
     color: #e4b2e4;
-    cursor: url("images/poof.svg");
+    cursor: url("/images/poof.svg");
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 300;
@@ -666,7 +666,7 @@ button,
   border: 0;
   box-shadow: inset 0 0 0 1px #e4b2e4;
   color: #cd8acd !important;
-  cursor: url("images/poof.svg");
+  cursor: url("/images/poof.svg");
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 300;
