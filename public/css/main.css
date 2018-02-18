@@ -338,7 +338,7 @@ input[type="radio"] {
     -ms-user-select: none;
     user-select: none;
     color: #e4b2e4;
-    cursor: url("/images/poof.svg");
+    cursor: url("/images/face.svg");
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 300;
@@ -666,7 +666,7 @@ button,
   border: 0;
   box-shadow: inset 0 0 0 1px #e4b2e4;
   color: #cd8acd !important;
-  cursor: url("/images/poof.svg");
+  cursor: url("/images/face.svg");
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 300;
@@ -726,7 +726,7 @@ button,
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    cursor: url("images/poof.svg");
+    cursor: url("/images/face.svg");
     opacity: 0.25; }
 
 input[type="submit"],
@@ -1073,7 +1073,7 @@ button {
       right: 0;
       width: 4rem;
       height: 4rem;
-      cursor: url("/images/poof.svg");
+      cursor: url("/images/face.svg");
       text-indent: 4rem;
       overflow: hidden;
       white-space: nowrap; }
