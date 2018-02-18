@@ -1,4 +1,4 @@
-@import url(css/fontawesome-all.min.css);
+@import url("/css/fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -518,7 +518,7 @@ ul {
         border-top: 0;
         padding-top: 0; }
   ul.icons {
-    cursor: url("images/poof.svg");
+    cursor: url("images/face.svg");
     list-style: none;
     padding-left: 0; }
     ul.icons li {
@@ -539,7 +539,7 @@ ul {
         ul.icons li a:active {
           background-color: rgba(255, 255, 255, 0.05); }
   ul.actions {
-    cursor: url("images/poof.svg");
+    cursor: url("images/face.svg");
     list-style: none;
     padding-left: 0; }
     ul.actions li {
