@@ -666,7 +666,7 @@ button,
   border: 0;
   box-shadow: inset 0 0 0 1px #e4b2e4;
   color: #cd8acd !important;
-  cursor: url("image/poof.svg");
+  cursor: url("images/poof.svg");
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 300;
@@ -726,7 +726,7 @@ button,
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    cursor: default;
+    cursor: url("images/poof.svg");
     opacity: 0.25; }
 
 input[type="submit"],
