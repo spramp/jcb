@@ -45,7 +45,7 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #000000; }
+  background: #ffffff; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -280,7 +280,7 @@ textarea {
     box-shadow: 0 0 0 1px #cd8acd; }
 
 select option {
-  background: #000000;
+  background: #ffffff;
   color: #e4b2e4; }
 
 .select-wrapper {
@@ -375,7 +375,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #cd8acd !important;
     border-color: #cd8acd !important;
-    color: #000000;
+    color: #ffffff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -450,7 +450,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     pointer-events: none;
     background-image: url("/images/overlay.png");
-    background-color: rgba(255, 218, 185, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     content: '';
     display: block;
@@ -711,7 +711,7 @@ button,
   button.special,
   .button.special {
     background-color: #cd8acd;
-    color: #000000 !important;
+    color: #ffffff !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
@@ -765,7 +765,7 @@ button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(255, 218, 185, 0.2), rgba(255, 218, 185, 0.2)), url("/images/overlay.png");
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -794,7 +794,7 @@ button {
     -ms-filter: blur(0.2rem);
     filter: blur(0.2rem); }
   body.is-loading #bg:before {
-    background-color: #000000; }
+    background-color: #ffffff; }
 
 /* Wrapper */
 #wrapper {
@@ -1057,7 +1057,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {
