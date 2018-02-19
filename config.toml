@@ -18,7 +18,7 @@ title = "Jan Christian Bernabe"
 [params]
   description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker<!--]--><br />
                 <!--[-->Funny<!--]-->'
-  logo = "fas fa-bolt fa-2x"
+  logo = "fas fa-bolt"
   copyright = "Jan Christian Bernabe, PhD"
 
 [params.disqus]
