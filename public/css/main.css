@@ -85,7 +85,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: double 1px rgba(255, 255, 255, 0.5);
+  border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit; }
   a:hover {
@@ -290,7 +290,7 @@ select option {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: fonts/FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -350,7 +350,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: fonts/FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -431,7 +431,7 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: fonts/FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
