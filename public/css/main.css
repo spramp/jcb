@@ -449,7 +449,7 @@ input[type="radio"] + label:before {
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     -o-pointer-events: none;
-    background-image: url("/images/overlay.png");
+    background-image: url("/static/images/overlay.png");
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     content: '';
