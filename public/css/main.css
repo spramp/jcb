@@ -92,7 +92,7 @@ a {
     border-bottom-color: transparent; }
 
 strong, b {
-  color: #ba80ba;
+  color: #cdb0cd;
   font-weight: 600; }
 
 em, i {
@@ -102,7 +102,7 @@ p {
   margin: 0 0 2rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ba80ba;
+  color: #cdb0cd;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
@@ -230,7 +230,7 @@ form {
         padding: 0; } }
 
 label {
-  color: #ba80ba;
+  color: #cdb0cd;
   display: block;
   font-size: 0.8rem;
   font-weight: 300;
@@ -276,8 +276,8 @@ textarea {
   select:focus,
   textarea:focus {
     background: rgba(255, 255, 255, 0.05);
-    border-color: #ba80ba;
-    box-shadow: 0 0 0 1px #ba80ba; }
+    border-color: #cdb0cd;
+    box-shadow: 0 0 0 1px #cdb0cd; }
 
 select option {
   background: #000000;
@@ -373,15 +373,15 @@ input[type="radio"] {
       width: 1.65rem; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #ba80ba !important;
-    border-color: #ba80ba !important;
+    background: #cdb0cd !important;
+    border-color: #cdb0cd !important;
     color: #000000;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
     background: rgba(255, 255, 255, 0.05);
-    border-color: #ba80ba;
-    box-shadow: 0 0 0 1px #ba80ba; }
+    border-color: #cdb0cd;
+    box-shadow: 0 0 0 1px #cdb0cd; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -623,7 +623,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #ba80ba;
+    color: #cdb0cd;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
@@ -665,7 +665,7 @@ button,
   border-radius: 4px;
   border: 0;
   box-shadow: inset 0 0 0 1px #fff0ff;
-  color: #ba80ba !important;
+  color: #cdb0cd !important;
   cursor: url("/static/images/face.svg");
   display: inline-block;
   font-size: 0.8rem;
@@ -710,7 +710,7 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #ba80ba;
+    background-color: #cdb0cd;
     color: #000000 !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,

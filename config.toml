@@ -29,27 +29,27 @@ title = "Jan Christian Bernabe"
 
 [[params.social]]
   medium = "linkedin"
-  logo = "fa-linkedin"
+  logo = "fas fa-linkedin"
   link = "https://www.linkedin.com/in/janchristianbernabe"
 
 [[params.social]]
   medium = "amazon"
-  logo = "fa-amazon"
+  logo = "fas fa-amazon"
   link = "https://www.amazon.com/Jan-Christian-Bernabe/e/B06W541XK7/ref=dp_byline_cont_ebooks_2"
 
 [[params.social]]
   medium = "quora"
-  logo = "fa-quora"
+  logo = "fas fa-quora"
   link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
 
 [[params.social]]
   medium = "twitter"
-  logo = "fa-twitter"
+  logo = "fas fa-twitter"
   link = "https://www.twitter.com/spramp"
 
 [[params.social]]
   medium = "github"
-  logo = "fa-github"
+  logo = "fas fa-github"
   link = "https://www.github.com/spramp"
 
 [languages]
