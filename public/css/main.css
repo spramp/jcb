@@ -850,10 +850,10 @@ button {
   -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  background-image: -moz-linear-gradient(180deg, rgba(255, 218, 185, 0.3), rgba(209, 238, 238, 0.2), rgba(255, 218, 185, 0.3));
-  background-image: -webkit-linear-gradient(180deg, rgba(255, 218, 185, 0.3), rgba(209, 238, 238, 0.2), rgba(255, 218, 185, 0.3));
-  background-image: -ms-linear-gradient(180deg, rgba(255, 218, 185, 0.3), rgba(209, 238, 238, 0.2), rgba(255, 218, 185, 0.3));
-  background-image: linear-gradient(180deg, rgba(255, 218, 185, 0.3), rgba(209, 238, 238, 0.2), rgba(255, 218, 185, 0.3));
+  background-image: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(209, 238, 238, 0.2), rgba(0, 0, 0, 0.1));
+  background-image: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(209, 238, 238, 0.2), rgba(0, 0, 0, 0.1));
+  background-image: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(209, 238, 238, 0.2), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(209, 238, 238, 0.2), rgba(0, 0, 0, 0.1));
   max-width: 100%;
   text-align: center; }
   #header > * {
