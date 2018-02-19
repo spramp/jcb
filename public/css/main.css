@@ -85,7 +85,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
+  border-bottom: dotted 2px rgba(223, 159, 223, 0.8);
   text-decoration: none;
   color: inherit; }
   a:hover {
@@ -338,7 +338,7 @@ input[type="radio"] {
     -ms-user-select: none;
     -o-user-select: none;
     color: #fff0ff;
-    cursor: url("/static/images/face.svg");
+    cursor: pointer;
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 300;
@@ -390,23 +390,23 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(223, 159, 223, 0.8) !important;
   opacity: 1.0; }
 
 :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(223, 159, 223, 0.8) !important;
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(223, 159, 223, 0.8) !important;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(223, 159, 223, 0.8) !important;
   opacity: 1.0; }
 
 .formerize-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(223, 159, 223, 0.8) !important;
   opacity: 1.0; }
 
 .box {
@@ -518,7 +518,7 @@ ul {
         border-top: 0;
         padding-top: 0; }
   ul.icons {
-    cursor: url("/static/images/face.svg");
+    cursor: pointer;
     list-style: none;
     padding-left: 0; }
     ul.icons li {
@@ -539,7 +539,7 @@ ul {
         ul.icons li a:active {
           background-color: rgba(255, 255, 255, 0.05); }
   ul.actions {
-    cursor: url("images/face.svg");
+    cursor: pointer;
     list-style: none;
     padding-left: 0; }
     ul.actions li {
@@ -666,7 +666,7 @@ button,
   border: 0;
   box-shadow: inset 0 0 0 1px #fff0ff;
   color: #cdb0cd !important;
-  cursor: url("/static/images/face.svg");
+  cursor: pointer;
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 300;
@@ -726,7 +726,7 @@ button,
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     -o-pointer-events: none;
-    cursor: url("/static/images/face.svg");
+    cursor: pointer;
     opacity: 0.25; }
 
 input[type="submit"],
@@ -1073,7 +1073,7 @@ button {
       right: 0;
       width: 4rem;
       height: 4rem;
-      cursor: url("/static/images/face.svg");
+      cursor: pointer;
       text-indent: 4rem;
       overflow: hidden;
       white-space: nowrap; }
