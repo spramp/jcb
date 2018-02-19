@@ -450,7 +450,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     -o-pointer-events: none;
     background-image: url("/static/images/overlay.png");
-    background-color: rgba(234, 24, 145, 0.6);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 4px;
     content: '';
     display: block;
@@ -765,7 +765,7 @@ button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     -o-transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(234, 24, 145, 0.6), rgba(234, 24, 145, 0.6)), url("/static/images/overlay.png");
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url("/static/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
