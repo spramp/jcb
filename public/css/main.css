@@ -862,7 +862,7 @@ button {
     -ms-transition: opacity 0.325s ease-in-out;
     -o-transition: opacity 0.325s ease-in-out;
     position: relative;
-    margin-top: 6.5rem; }
+    margin-top: 3.5rem; }
     #header > *:before {
       content: '';
       display: block;
