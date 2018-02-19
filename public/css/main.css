@@ -45,7 +45,7 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #ffffff; }
+  background: #000000; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -280,7 +280,7 @@ textarea {
     box-shadow: 0 0 0 1px #cd8acd; }
 
 select option {
-  background: #ffffff;
+  background: #000000;
   color: #e4b2e4; }
 
 .select-wrapper {
@@ -375,7 +375,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #cd8acd !important;
     border-color: #cd8acd !important;
-    color: #ffffff;
+    color: #000000;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -711,7 +711,7 @@ button,
   button.special,
   .button.special {
     background-color: #cd8acd;
-    color: #ffffff !important;
+    color: #000000 !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
@@ -794,7 +794,7 @@ button {
     -ms-filter: blur(0.2rem);
     filter: blur(0.2rem); }
   body.is-loading #bg:before {
-    background-color: #ffffff; }
+    background-color: #000000; }
 
 /* Wrapper */
 #wrapper {
@@ -1057,7 +1057,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {

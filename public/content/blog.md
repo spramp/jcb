@@ -1,6 +1,6 @@
 +++
-title = "Intro"
-weight = 10
+title = "Blog"
+weight = 30
 draft = false
 +++
 
