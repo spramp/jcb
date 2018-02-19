@@ -29,27 +29,27 @@ title = "Jan Christian Bernabe"
 
 [[params.social]]
   medium = "linkedin"
-  icon = ".linkedin"
+  icon = "linkedin"
   link = "https://www.linkedin.com/in/janchristianbernabe"
 
 [[params.social]]
   medium = "amazon"
-  icon = ".amazon"
+  icon = "amazon"
   link = "https://www.amazon.com/Jan-Christian-Bernabe/e/B06W541XK7/ref=dp_byline_cont_ebooks_2"
 
 [[params.social]]
   medium = "quora"
-  icon = ".quora"
+  icon = "quora"
   link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
 
 [[params.social]]
   medium = "twitter"
-  icon = ".twitter"
+  icon = "twitter"
   link = "https://www.twitter.com/spramp"
 
 [[params.social]]
   medium = "github"
-  icon = ".github"
+  icon = "github"
   link = "https://www.github.com/spramp"
 
 [languages]

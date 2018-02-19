@@ -12,7 +12,7 @@
 		border: 0;
 		box-shadow: inset 0 0 0 _size(border-width) _palette(border);
 		color: _palette(fg-bold) !important;
-		cursor: url('/images/face.svg');
+		cursor: url('/static/images/face.svg');
 		display: inline-block;
 		font-size: 0.8rem;
 		font-weight: _font(weight);
@@ -61,7 +61,7 @@
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
-			cursor: url('/images/face.svg');
+			cursor: url('/static/images/face.svg');
 			opacity: 0.25;
 		}
 	}
