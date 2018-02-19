@@ -85,7 +85,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+  border-bottom: dotted 5px rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit; }
   a:hover {
@@ -862,15 +862,15 @@ button {
     -ms-transition: opacity 0.325s ease-in-out;
     -o-transition: opacity 0.325s ease-in-out;
     position: relative;
-    margin-top: 5rem; }
+    margin-top: 3.5rem; }
     #header > *:before {
       content: '';
       display: block;
       position: absolute;
-      top: calc(-5rem - 1px);
+      top: calc(-3.5rem - 1px);
       left: calc(50% - 1px);
       width: 1px;
-      height: calc(5rem + 1px);
+      height: calc(3.5rem + 1px);
       background: #e4b2e4; }
   #header > :first-child {
     margin-top: 0; }
