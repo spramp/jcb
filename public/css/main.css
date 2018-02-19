@@ -85,7 +85,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 5px rgba(255, 255, 255, 0.5);
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit; }
   a:hover {
@@ -883,7 +883,7 @@ button {
     border: solid 1px #e4b2e4;
     border-radius: 100%; }
     #header .logo .icon:before {
-      font-size: 2rem; }
+      font-size: 4rem; }
   #header .content {
     border-style: solid;
     border-color: #e4b2e4;
