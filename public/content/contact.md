@@ -24,7 +24,7 @@ draft = false
 </form>
 <script>
     var jcbcontactform =  document.getElementById('jcbcontactform');
-    jcbcontactform.setAttribute('action', '//formspree.io/' + 'janchristianbernabe' + '@' + 'gmail' + '.' + 'com');
+    jcbcontactform.setAttribute('actions', '//formspree.io/' + 'janchristianbernabe' + '@' + 'gmail' + '.' + 'com');
 </script>
 
 {{< socialLinks >}}
