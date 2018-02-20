@@ -289,7 +289,7 @@ select option {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: fonts/FontAwesome;
+    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -349,7 +349,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: fonts/FontAwesome;
+      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -430,7 +430,7 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: fonts/FontAwesome;
+    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
