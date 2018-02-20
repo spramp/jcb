@@ -3,6 +3,24 @@ title = "Contact"
 weight = 40
 draft = false
 +++
+
+import fontawesome from '@fortawesome/fontawesome'
+import faLinkedin from '@fortawesome/fontawesome-free-solid/faLinkedin'
+import faQuora from '@fortawesome/fontawesome-free-solid/faQuora'
+import faAmazon from '@fortawesome/fontawesome-free-solid/faAmazon'
+import faGithub from '@fortawesome/fontawesome-free-solid/faGithub'
+import faTwitter from '@fortawesome/fontawesome-free-solid/faTwitter'
+import faSpotify from '@fortawesome/fontawesome-free-solid/faSpotify'
+
+
+fontawesome.library.add(faLinkedin)
+fontawesome.library.add(faQuora
+fontawesome.library.add(faAmazon)
+fontawesome.library.add(faGithub)
+fontawesome.library.add(faTwitter)
+fontawesome.library.add(faSpotify)
+
+
 <form id="contactform" method="POST">
 	<div class="field half first">
 		<label for="name">Your Name</label>
