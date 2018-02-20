@@ -132,7 +132,7 @@
 					position: absolute;
 					top: 0;
 					left: calc(50% - #{_size(border-width) * 1});
-					width: 0.5;
+					width: 1;
 					height: 100%;
 					background: _palette(border);
 				}

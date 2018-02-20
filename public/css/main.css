@@ -942,7 +942,7 @@ button {
     position: absolute;
     top: 0;
     left: calc(50% - 1px);
-    width: 0.5;
+    width: 1;
     height: 100%;
     background: #ffe1fc; }
   #header nav.use-middle ul li.is-middle {
