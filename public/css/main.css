@@ -711,7 +711,7 @@ button,
   button.special,
   .button.special {
     background-color: #a83a7f;
-    color: rgba(0, 0, 0, 0.7) !important;
+    color: #ffe1fc !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
