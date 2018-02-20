@@ -16,7 +16,7 @@ staticDir = "public/static"
 title = "Jan Christian Bernabe"
 
 [params]
-  description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker |<!--]--><br />
+  description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker |<!--]--><br /><br />
                 <!--[-->Polymath<!--]-->'
   logo = "fas fa-bolt"
   copyright = "Jan Christian Bernabe, PhD"
@@ -29,27 +29,27 @@ title = "Jan Christian Bernabe"
 
 [[params.social]]
   medium = "linkedin"
-  icon = "fas fa-linkedin"
+  icon = "fa-linkedin"
   link = "https://www.linkedin.com/in/janchristianbernabe"
 
 [[params.social]]
   medium = "amazon"
-  icon = "fas fa-amazon"
+  icon = "fa-amazon"
   link = "https://www.amazon.com/Jan-Christian-Bernabe/e/B06W541XK7/ref=dp_byline_cont_ebooks_2"
 
 [[params.social]]
   medium = "quora"
-  icon = "fas fa-quora"
+  icon = "fa-quora"
   link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
 
 [[params.social]]
   medium = "twitter"
-  icon = "fas fa-twitter"
+  icon = "fa-twitter"
   link = "https://www.twitter.com/spramp"
 
 [[params.social]]
   medium = "github"
-  icon = "fas fa-github"
+  icon = "fa-github"
   link = "https://www.github.com/spramp"
 
 [languages]
