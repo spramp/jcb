@@ -80,10 +80,10 @@ body, input, select, textarea {
   line-height: 1.4; }
 
 a {
-  -moz-transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out, border-bottom-color 0.6s ease-in-out;
-  -webkit-transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out, border-bottom-color 0.6s ease-in-out;
-  -ms-transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out, border-bottom-color 0.6s ease-in-out;
-  -o-transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out, border-bottom-color 0.6s ease-in-out;
+  -moz-transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out, border-bottom-color 0.8s ease-in-out;
+  -webkit-transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out, border-bottom-color 0.8s ease-in-out;
+  -ms-transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out, border-bottom-color 0.8s ease-in-out;
+  -o-transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out, border-bottom-color 0.8s ease-in-out;
   border-bottom: dotted 2px #d579c3;
   text-decoration: none;
   color: inherit; }
@@ -91,7 +91,7 @@ a {
     border-bottom-color: transparent; }
 
 strong, b {
-  color: #a83a7f;
+  color: rgba(168, 58, 127, 0.8);
   font-weight: 600; }
 
 em, i {
@@ -101,7 +101,7 @@ p {
   margin: 0 0 2rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #a83a7f;
+  color: rgba(168, 58, 127, 0.8);
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
@@ -248,10 +248,10 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  -moz-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-  -webkit-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-  -ms-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-  -o-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
+  -moz-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+  -webkit-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+  -ms-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+  -o-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
   background: transparent;
   border-radius: 4px;
   border: dotted 1px #ffe1fc;
@@ -275,8 +275,8 @@ textarea {
   select:focus,
   textarea:focus {
     background: rgba(255, 255, 255, 0.05);
-    border-color: #a83a7f;
-    box-shadow: 0 0 0 1px #a83a7f; }
+    border-color: rgba(168, 58, 127, 0.8);
+    box-shadow: 0 0 0 1px rgba(168, 58, 127, 0.8); }
 
 select option {
   background: rgba(0, 0, 0, 0.7);
@@ -355,10 +355,10 @@ input[type="radio"] {
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      -moz-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-      -webkit-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-      -ms-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
-      -o-transition: border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background-color 0.6s ease-in-out;
+      -moz-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+      -webkit-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+      -ms-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
+      -o-transition: border-color 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-color 0.8s ease-in-out;
       border-radius: 4px;
       border: dotted 1px #ffe1fc;
       content: '';
@@ -372,15 +372,15 @@ input[type="radio"] {
       width: 1.65rem; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #a83a7f !important;
-    border-color: #a83a7f !important;
+    background: rgba(168, 58, 127, 0.8) !important;
+    border-color: rgba(168, 58, 127, 0.8) !important;
     color: rgba(0, 0, 0, 0.7);
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
     background: rgba(255, 255, 255, 0.05);
-    border-color: #a83a7f;
-    box-shadow: 0 0 0 1px #a83a7f; }
+    border-color: rgba(168, 58, 127, 0.8);
+    box-shadow: 0 0 0 1px rgba(168, 58, 127, 0.8); }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -623,7 +623,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #a83a7f;
+    color: rgba(168, 58, 127, 0.8);
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
@@ -657,10 +657,10 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  -moz-transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
-  -webkit-transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
-  -ms-transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
-  -o-transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
+  -moz-transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+  -webkit-transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+  -ms-transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+  -o-transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
   border: dotted 1px;
@@ -709,7 +709,7 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #a83a7f;
+    background-color: rgba(168, 58, 127, 0.8);
     color: #ffe1fc !important;
     font-weight: 600; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -760,10 +760,10 @@ button {
     -webkit-transition: background-color 2s ease-in-out;
     -ms-transition: background-color 2s ease-in-out;
     -o-transition: background-color 2s ease-in-out;
-    -moz-transition-delay: 0.75s;
-    -webkit-transition-delay: 0.75s;
-    -ms-transition-delay: 0.75s;
-    -o-transition-delay: 0.75s;
+    -moz-transition-delay: 0.8s;
+    -webkit-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url("/static/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
@@ -889,10 +889,10 @@ button {
     border-bottom-width: 1px;
     max-width: 100%; }
     #header .content .inner {
-      -moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-      -webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-      -ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-      -o-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
+      -moz-transition: max-height 0.8s ease, padding 0.8s ease, opacity 0.325s ease-in-out;
+      -webkit-transition: max-height 0.8s ease, padding 0.8s ease, opacity 0.325s ease-in-out;
+      -ms-transition: max-height 0.8s ease, padding 0.8s ease, opacity 0.325s ease-in-out;
+      -o-transition: max-height 0.8s ease, padding 0.8s ease, opacity 0.325s ease-in-out;
       -moz-transition-delay: 0.25s;
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
@@ -1076,10 +1076,10 @@ button {
       overflow: hidden;
       white-space: nowrap; }
       #main article .close:before {
-        -moz-transition: background-color 0.6s ease-in-out;
-        -webkit-transition: background-color 0.6s ease-in-out;
-        -ms-transition: background-color 0.6s ease-in-out;
-        -o-transition: background-color 0.6s ease-in-out;
+        -moz-transition: background-color 0.8s ease-in-out;
+        -webkit-transition: background-color 0.8s ease-in-out;
+        -ms-transition: background-color 0.8s ease-in-out;
+        -o-transition: background-color 0.8s ease-in-out;
         content: '';
         display: block;
         position: absolute;
