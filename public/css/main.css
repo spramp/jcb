@@ -915,7 +915,7 @@ button {
     margin-bottom: 0;
     list-style: none;
     padding-left: 0;
-    border: dotted 1px #ffe1fc;
+    border: none 1px #ffe1fc;
     border-radius: 4px; }
     #header nav ul li {
       padding-left: 0;
