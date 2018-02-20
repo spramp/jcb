@@ -18,7 +18,8 @@ title = "Jan Christian Bernabe"
 [params]
   description = '<!--[-->Thought Leader | Creative Technophile | Growth Hacker |<!--]--><br /><br />
                 <!--[-->Polymath<!--]-->'
-  icon = "fas fa-bolt"
+  logo = "fas fa-bolt"
+  data-fa-transform = "grow-6"
   copyright = "Jan Christian Bernabe, PhD"
 
 [params.disqus]
