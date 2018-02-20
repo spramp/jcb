@@ -1003,7 +1003,7 @@ button {
         max-width: 100%; }
         #header nav ul li {
           border-left: 0;
-          border-top: dotted 1px #ffe1fc; }
+          border-top: none 1px #ffe1fc; }
           #header nav ul li:first-child {
             border-top: 0; }
           #header nav ul li a {
