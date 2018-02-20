@@ -44,7 +44,7 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: rgba(0, 0, 0, 0.7); }
+  background: rgba(0, 0, 0, 0.8); }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -279,7 +279,7 @@ textarea {
     box-shadow: 0 0 0 1px #c25499; }
 
 select option {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   color: #ffe1fc; }
 
 .select-wrapper {
@@ -374,7 +374,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #c25499 !important;
     border-color: #c25499 !important;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.8);
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -449,7 +449,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     -o-pointer-events: none;
     background-image: url("/static/images/overlay.png");
-    background-color: rgba(138, 204, 185, 0.3);
+    background-color: rgba(138, 204, 185, 0.1);
     border-radius: 4px;
     content: '';
     display: block;
@@ -764,7 +764,7 @@ button {
     -webkit-transition-delay: 0.8s;
     -ms-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
-    background-image: linear-gradient(to top, rgba(138, 204, 185, 0.3), rgba(138, 204, 185, 0.3)), url("/static/images/overlay.png");
+    background-image: linear-gradient(to top, rgba(138, 204, 185, 0.1), rgba(138, 204, 185, 0.1)), url("/static/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -872,7 +872,7 @@ button {
       height: calc(3.5rem + 1px);
       background: #ffe1fc; }
   #header > :first-child {
-    margin-top: 0.5rem; }
+    margin-top: 0; }
     #header > :first-child:before {
       display: none; }
   #header .logo {
@@ -916,11 +916,9 @@ button {
     margin-bottom: 0;
     list-style: none;
     padding-left: 0;
-    border: dotted 1px #ffe1fc;
     border-radius: 4px; }
     #header nav ul li {
-      padding-left: 0;
-      border-left: dotted 1px #ffe1fc; }
+      padding-left: 0; }
       #header nav ul li:first-child {
         border-left: 0; }
       #header nav ul li a {
@@ -932,7 +930,7 @@ button {
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         font-size: 0.8rem;
-        border: 0; }
+        border-bottom: 0; }
         #header nav ul li a:hover {
           background-color: rgba(138, 204, 185, 0.3); }
         #header nav ul li a:active {
@@ -1056,7 +1054,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.65);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {
