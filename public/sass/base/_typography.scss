@@ -66,7 +66,7 @@
 		}
 
 		&.major {
-			border-bottom: solid _size(border-width) _palette(border);
+			border-bottom: dotted _size(border-width) _palette(border);
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -129,7 +129,7 @@
 	}
 
 	blockquote {
-		border-left: solid (_size(border-width) * 4) _palette(border);
+		border-left: dotted (_size(border-width) * 4) _palette(border);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
@@ -160,7 +160,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid _size(border-width) _palette(border);
+		border-bottom: dotted _size(border-width) _palette(border);
 		margin: (_size(element-margin) * 1.375) 0;
 	}
 
