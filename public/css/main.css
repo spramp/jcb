@@ -88,7 +88,7 @@ a {
   text-decoration: none;
   color: inherit; }
   a:hover {
-    border-bottom-color: rgba(138, 204, 185, 0.3); }
+    border-bottom-color: rgba(138, 204, 185, 0.4); }
 
 strong, b {
   color: #c25499;
