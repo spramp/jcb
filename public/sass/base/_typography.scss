@@ -30,7 +30,7 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: dotted 1px _palette(fbefore);
+		border-bottom: double 1px _palette(fbefore);
 		text-decoration: none;
 		color: inherit;
 
