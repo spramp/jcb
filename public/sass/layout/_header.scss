@@ -92,12 +92,12 @@
 				margin-bottom: 0;
 				list-style: none;
 				padding-left: 0;
-				border: none _size(border-width) _palette(border);
+				border: dotted _size(border-width) _palette(border);
 				border-radius: _size(border-radius);
 
 				li {
 					padding-left: 0;
-					border-left: none _size(border-width) _palette(border);
+					border-left: dotted _size(border-width) _palette(border);
 
 					&:first-child {
 						border-left: 0;
@@ -132,7 +132,8 @@
 					position: absolute;
 					top: 0;
 					left: calc(50% - #{_size(border-width) * 1});
-					width: _size(border-width);
+					border-style: dotted;
+					width: 1px;
 					height: 100%;
 					background: _palette(border);
 				}
@@ -140,7 +141,6 @@
 				ul {
 					li {
 						&.is-middle {
-							border: none;
 							border-left: 0;
 						}
 					}
