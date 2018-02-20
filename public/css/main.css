@@ -794,7 +794,7 @@ button {
     -ms-filter: blur(0.2rem);
     -o-filter: blur(0.2rem); }
   body.is-loading #bg:before {
-    background-color: #a492ac; }
+    background-color: rgba(135, 188, 194, 0.5); }
 
 /* Wrapper */
 #wrapper {
