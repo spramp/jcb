@@ -19,7 +19,8 @@
 		> * {
 			@include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 2.0rem;
+			margin-bottom: 0.5rem;
 
 			&:before {
 				content: '';
@@ -34,7 +35,7 @@
 		}
 
 		> :first-child {
-			margin-top: 0;
+			margin-top: 0.5rem;
 
 			&:before {
 				display: none;

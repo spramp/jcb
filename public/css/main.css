@@ -861,7 +861,8 @@ button {
     -ms-transition: opacity 0.325s ease-in-out;
     -o-transition: opacity 0.325s ease-in-out;
     position: relative;
-    margin-top: 3.5rem; }
+    margin-top: 2.0rem;
+    margin-bottom: 0.5rem; }
     #header > *:before {
       content: '';
       display: block;
@@ -871,7 +872,7 @@ button {
       height: calc(3.5rem + 1px);
       background: #ffe1fc; }
   #header > :first-child {
-    margin-top: 0; }
+    margin-top: 0.5rem; }
     #header > :first-child:before {
       display: none; }
   #header .logo {
