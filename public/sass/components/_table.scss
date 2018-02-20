@@ -11,7 +11,7 @@
 
 		tbody {
 			tr {
-				border: solid _size(border-width) _palette(border);
+				border: dotted _size(border-width) _palette(border);
 				border-left: 0;
 				border-right: 0;
 
@@ -34,11 +34,11 @@
 		}
 
 		thead {
-			border-bottom: solid (_size(border-width) * 2) _palette(border);
+			border-bottom: dotted (_size(border-width) * 2) _palette(border);
 		}
 
 		tfoot {
-			border-top: solid (_size(border-width) * 2) _palette(border);
+			border-top: dotted (_size(border-width) * 2) _palette(border);
 		}
 
 		&.alt {
@@ -47,7 +47,7 @@
 			tbody {
 				tr {
 					td {
-						border: solid _size(border-width) _palette(border);
+						border: dotted _size(border-width) _palette(border);
 						border-left-width: 0;
 						border-top-width: 0;
 

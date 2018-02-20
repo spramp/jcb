@@ -81,7 +81,7 @@
 		));
 		background: transparent;
 		border-radius: _size(border-radius);
-		border: solid _size(border-width) _palette(border);
+		border: dotted _size(border-width) _palette(border);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -173,7 +173,7 @@
 					'background-color #{_duration(transition)} ease-in-out'
 				));
 				border-radius: _size(border-radius);
-				border: solid _size(border-width) _palette(border);
+				border: dotted _size(border-width) _palette(border);
 				content: '';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
