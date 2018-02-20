@@ -231,7 +231,7 @@
 
 					li {
 						border-left: 0;
-						border-top: none _size(border-width) _palette(border);
+						border-top: dotted _size(border-width) _palette(border);
 
 						&:first-child {
 							border-top: 0;
