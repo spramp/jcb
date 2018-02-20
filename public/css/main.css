@@ -88,7 +88,7 @@ a {
   text-decoration: none;
   color: inherit; }
   a:hover {
-    border-bottom-color: #8accb9; }
+    border-bottom-color: rgba(138, 204, 185, 0.3); }
 
 strong, b {
   color: #c25499;
@@ -166,7 +166,7 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(138, 204, 185, 0.3);
   border-radius: 4px;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
@@ -274,7 +274,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(138, 204, 185, 0.3);
     border-color: #c25499;
     box-shadow: 0 0 0 1px #c25499; }
 
@@ -378,7 +378,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(138, 204, 185, 0.3);
     border-color: #c25499;
     box-shadow: 0 0 0 1px #c25499; }
 
@@ -449,7 +449,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     -o-pointer-events: none;
     background-image: url("/static/images/overlay.png");
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(138, 204, 185, 0.3);
     border-radius: 4px;
     content: '';
     display: block;
@@ -535,9 +535,9 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          background-color: rgba(255, 255, 255, 0.05); }
+          background-color: rgba(138, 204, 185, 0.3); }
         ul.icons li a:active {
-          background-color: rgba(255, 255, 255, 0.05); }
+          background-color: rgba(138, 204, 185, 0.3); }
   ul.actions {
     cursor: pointer;
     list-style: none;
@@ -619,7 +619,7 @@ table {
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(255, 255, 255, 0.05); }
+      background-color: rgba(138, 204, 185, 0.3); }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -683,13 +683,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(255, 255, 255, 0.05); }
+    background-color: rgba(138, 204, 185, 0.3); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(255, 255, 255, 0.05); }
+    background-color: rgba(138, 204, 185, 0.3); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -764,7 +764,7 @@ button {
     -webkit-transition-delay: 0.8s;
     -ms-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url("/static/images/overlay.png");
+    background-image: linear-gradient(to top, rgba(138, 204, 185, 0.3), rgba(138, 204, 185, 0.3)), url("/static/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -932,11 +932,11 @@ button {
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         font-size: 0.8rem;
-        border-bottom: 0; }
+        border: 0; }
         #header nav ul li a:hover {
-          background-color: rgba(255, 255, 255, 0.05); }
+          background-color: rgba(138, 204, 185, 0.3); }
         #header nav ul li a:active {
-          background-color: rgba(255, 255, 255, 0.05); }
+          background-color: rgba(138, 204, 185, 0.3); }
   #header nav.use-middle:after {
     content: '';
     display: block;
@@ -1094,9 +1094,9 @@ button {
         background-size: 20px 20px;
         background-repeat: no-repeat; }
       #main article .close:hover:before {
-        background-color: rgba(255, 255, 255, 0.05); }
+        background-color: rgba(138, 204, 185, 0.3); }
       #main article .close:active:before {
-        background-color: rgba(255, 255, 255, 0.05); }
+        background-color: rgba(138, 204, 185, 0.3); }
   @media screen and (max-width: 736px) {
     #main article {
       padding: 3.5rem 2rem 0.5rem 2rem ; }
