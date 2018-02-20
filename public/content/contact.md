@@ -3,7 +3,7 @@ title = "Contact"
 weight = 40
 draft = false
 +++
-<form id="jcbcontactform" method="POST">
+<form id="contactform" method="POST">
 	<div class="field half first">
 		<label for="name">Your Name</label>
 		<input type="text" name="name" id="name" />
@@ -23,8 +23,8 @@ draft = false
 	</ul>
 </form>
 <script>
-    var jcbcontactform =  document.getElementById('jcbcontactform');
-    jcbcontactform.setAttribute('actions', '//formspree.io/' + 'janchristianbernabe' + '@' + 'gmail' + '.' + 'com');
+    var contactform = document.getElementById('contactform');
+    contactform.setAttribute('actions', '//formspree.io/' + 'janchristianbernabe' + '@' + 'gmail' + '.' + 'com');
 </script>
 
 {{< socialLinks >}}
