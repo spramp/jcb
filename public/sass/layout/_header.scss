@@ -140,7 +140,7 @@
 				ul {
 					li {
 						&.is-middle {
-							border: dotted _size(border-width) _palette(border);
+							border: none;
 							border-left: 0;
 						}
 					}

@@ -946,7 +946,7 @@ button {
     height: 100%;
     background: #ffe1fc; }
   #header nav.use-middle ul li.is-middle {
-    border: dotted 1px #ffe1fc;
+    border: none;
     border-left: 0; }
   body.is-article-visible #header {
     -moz-transform: scale(0.95);
