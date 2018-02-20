@@ -14,7 +14,7 @@ import faSpotify from '@fortawesome/fontawesome-free-solid/faSpotify'
 
 
 fontawesome.library.add(faLinkedin)
-fontawesome.library.add(faQuora
+fontawesome.library.add(faQuora)
 fontawesome.library.add(faAmazon)
 fontawesome.library.add(faGithub)
 fontawesome.library.add(faTwitter)
