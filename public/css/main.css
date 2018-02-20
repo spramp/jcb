@@ -872,7 +872,7 @@ button {
       height: calc(3.5rem + 1px);
       background: #ffe1fc; }
   #header > :first-child {
-    margin-top: 0; }
+    margin-top: 1.5rem; }
     #header > :first-child:before {
       display: none; }
   #header .logo {
@@ -1121,7 +1121,7 @@ button {
   #footer .copyright {
     letter-spacing: 0.2rem;
     font-size: 0.6rem;
-    opacity: 0.75;
+    opacity: 0;
     margin-bottom: 0;
     text-transform: uppercase; }
   body.is-article-visible #footer {
