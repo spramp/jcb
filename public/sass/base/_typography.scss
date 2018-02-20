@@ -30,12 +30,12 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: dotted 1px _palette(border);
+		border-bottom: dotted 1px _palette(fbefore);
 		text-decoration: none;
 		color: inherit;
 
 		&:hover {
-			border-bottom-color: _palette(fg);
+			border-bottom-color: _palette(fhover);
 		}
 	}
 
