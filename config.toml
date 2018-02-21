@@ -14,7 +14,7 @@ layoutDir = "public/layouts"
 publishDir = "public"
 staticDir = "public/static"
 title = "Jan Christian Bernabe"
-uglyURLs = true
+uglyURLs = false
 
 [params]
   description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><p></p>
