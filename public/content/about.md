@@ -7,6 +7,7 @@ draft = false
 {{< figure class="image main" src="images/pic01.jpg" >}}
 
 **Professional Summary**
+
 I am _curious_. I have carried a sense of wonder and discovery since childhood. As a kid, I often took household gadgets methodically apart and reassembled them later to figure out how they worked. To this day curiosity and problem-solving have worked in tandem with how I approach new projects and processes.
 
 I am a _life-long learner_ and _thought leader_. The time that I devoted to my Ph.D. conveys my dedication to and successful completion of a rigorous multi-year project. It fostered my love for research and writing, and it taught me to embrace collaboration and criticism. I developed an ethos of transformational leadership that I employ today that combines creativity, humor, and empathy. I am a published scholar in peer-reviewed journals (you can find my scholarship on <a href="https://goo.gl/CJn8hY" target="_blank">Google Scholar</a> or <a href="http://centerforartandthought.academia.edu/JanChristianBernabeAcademia.edu" target="_blank">Academia.edu</a>). I also use platforms like _Quora_ and _Medium_ to publish essays about higher education, nonprofit management, arts and culture, and other topics.
@@ -19,6 +20,6 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 
 If anything catches your eye, please connect with me.
 
-(Not So Serious About Me)
+Check out my Casual Summary About Me
 
 {{< socialLinks >}}
