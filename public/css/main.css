@@ -174,7 +174,7 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
-  background: rgba(138, 204, 185, 0.3);
+  background: rgba(138, 204, 185, 0.5);
   border-radius: 4px;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
@@ -282,7 +282,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    background: rgba(138, 204, 185, 0.3);
+    background: rgba(138, 204, 185, 0.5);
     border-color: #c06aa0;
     box-shadow: 0 0 0 1px #c06aa0; }
 
@@ -386,7 +386,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    background: rgba(138, 204, 185, 0.3);
+    background: rgba(138, 204, 185, 0.5);
     border-color: #c06aa0;
     box-shadow: 0 0 0 1px #c06aa0; }
 
@@ -543,9 +543,9 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          background-color: rgba(138, 204, 185, 0.3); }
+          background-color: rgba(138, 204, 185, 0.5); }
         ul.icons li a:active {
-          background-color: rgba(138, 204, 185, 0.3); }
+          background-color: rgba(138, 204, 185, 0.5); }
   ul.actions {
     cursor: pointer;
     list-style: none;
@@ -627,7 +627,7 @@ table {
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(138, 204, 185, 0.3); }
+      background-color: rgba(138, 204, 185, 0.5); }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -691,13 +691,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(138, 204, 185, 0.3); }
+    background-color: rgba(138, 204, 185, 0.5); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(138, 204, 185, 0.3); }
+    background-color: rgba(138, 204, 185, 0.5); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -940,9 +940,9 @@ button {
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
-          background-color: rgba(138, 204, 185, 0.3); }
+          background-color: rgba(138, 204, 185, 0.5); }
         #header nav ul li a:active {
-          background-color: rgba(138, 204, 185, 0.3); }
+          background-color: rgba(138, 204, 185, 0.5); }
   #header nav.use-middle:after {
     content: '';
     display: block;
@@ -1100,9 +1100,9 @@ button {
         background-size: 20px 20px;
         background-repeat: no-repeat; }
       #main article .close:hover:before {
-        background-color: rgba(138, 204, 185, 0.3); }
+        background-color: rgba(138, 204, 185, 0.5); }
       #main article .close:active:before {
-        background-color: rgba(138, 204, 185, 0.3); }
+        background-color: rgba(138, 204, 185, 0.5); }
   @media screen and (max-width: 736px) {
     #main article {
       padding: 3.5rem 2rem 0.5rem 2rem ; }
