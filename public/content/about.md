@@ -20,6 +20,6 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 
 If anything catches your eye, please connect with me.
 
-Check out my Casual Summary About Me
+[About Me Part II: A Casual Summary]({{< ref "/about-fun.md" >}})
 
 {{< socialLinks >}}
