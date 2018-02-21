@@ -772,7 +772,7 @@ button {
     -webkit-transition-delay: 0.8s;
     -ms-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
-    background-image: linear-gradient(to top, rgba(138, 204, 185, 0.7), );
+    background-image: linear-gradient(to top, rgba(138, 204, 185, 0.7), , rgba(138, 204, 185, 0.7));
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
