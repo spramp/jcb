@@ -6,8 +6,8 @@
 // Duration.
 	$duration: (
 		transition: 0.6s,
-		bg-bg: 10.0s,
-		intro: 1.0s,
+		bg-bg: 4.0s,
+		intro: 10.0s,
 		article: 0.6s
 	);
 
@@ -44,6 +44,7 @@
 		fg-bold: rgba(192, 106, 160, 1),
 		fg-light: rgba(217, 131, 185, 1),
 		border: rgba(255, 225, 252, 1),
-		border-bg: rgba(138, 204, 185, 0.5),
-		border-bg-alt:rgba(138, 204, 185, 0.5),
+		icon-bg: rgba(138, 204, 185, 1.0),
+		border-bg: rgba(138, 204, 185, 0.6),
+		border-bg-alt:rgba(138, 204, 185, 0.6),
 	);

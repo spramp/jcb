@@ -174,7 +174,7 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
-  background: rgba(138, 204, 185, 0.5);
+  background: rgba(138, 204, 185, 0.6);
   border-radius: 4px;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
@@ -282,7 +282,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    background: rgba(138, 204, 185, 0.5);
+    background: rgba(138, 204, 185, 0.6);
     border-color: #c06aa0;
     box-shadow: 0 0 0 1px #c06aa0; }
 
@@ -386,7 +386,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    background: rgba(138, 204, 185, 0.5);
+    background: rgba(138, 204, 185, 0.6);
     border-color: #c06aa0;
     box-shadow: 0 0 0 1px #c06aa0; }
 
@@ -530,7 +530,8 @@ ul {
     padding-left: 0; }
     ul.icons li {
       display: inline-block;
-      padding: 0 0.75em 0 0; }
+      padding: 0 0.75em 0 0;
+      color: _pallette(icon-bg); }
       ul.icons li:last-child {
         padding-right: 0; }
       ul.icons li a {
@@ -543,9 +544,9 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          background-color: rgba(138, 204, 185, 0.5); }
+          background-color: rgba(138, 204, 185, 0.6); }
         ul.icons li a:active {
-          background-color: rgba(138, 204, 185, 0.5); }
+          background-color: rgba(138, 204, 185, 0.6); }
   ul.actions {
     cursor: pointer;
     list-style: none;
@@ -627,7 +628,7 @@ table {
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(138, 204, 185, 0.5); }
+      background-color: rgba(138, 204, 185, 0.6); }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -691,13 +692,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(138, 204, 185, 0.5); }
+    background-color: rgba(138, 204, 185, 0.6); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(138, 204, 185, 0.5); }
+    background-color: rgba(138, 204, 185, 0.6); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -725,7 +726,7 @@ button,
     input[type="button"].special:hover,
     button.special:hover,
     .button.special:hover {
-      background-color: rgba(138, 204, 185, 0.5); }
+      background-color: rgba(138, 204, 185, 0.6); }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -770,14 +771,14 @@ button {
     width: 100%;
     height: 100%; }
   #bg:before {
-    -moz-transition: background-color 10s ease-in-out;
-    -webkit-transition: background-color 10s ease-in-out;
-    -ms-transition: background-color 10s ease-in-out;
-    -o-transition: background-color 10s ease-in-out;
-    -moz-transition-delay: 1s;
-    -webkit-transition-delay: 1s;
-    -ms-transition-delay: 1s;
-    -o-transition-delay: 1s;
+    -moz-transition: background-color 4s ease-in-out;
+    -webkit-transition: background-color 4s ease-in-out;
+    -ms-transition: background-color 4s ease-in-out;
+    -o-transition: background-color 4s ease-in-out;
+    -moz-transition-delay: 10s;
+    -webkit-transition-delay: 10s;
+    -ms-transition-delay: 10s;
+    -o-transition-delay: 10s;
     background-image: linear-gradient(to top, rgba(138, 204, 185, 0.3), rgba(192, 106, 160, 0.3), rgba(138, 204, 185, 0.3));
     background-size: auto, 256px 256px;
     background-position: center, center;
@@ -904,10 +905,10 @@ button {
     border-bottom-width: 1px;
     max-width: 100%; }
     #header .content .inner {
-      -moz-transition: max-height 1s ease, padding 1s ease, opacity 0.6s ease-in-out;
-      -webkit-transition: max-height 1s ease, padding 1s ease, opacity 0.6s ease-in-out;
-      -ms-transition: max-height 1s ease, padding 1s ease, opacity 0.6s ease-in-out;
-      -o-transition: max-height 1s ease, padding 1s ease, opacity 0.6s ease-in-out;
+      -moz-transition: max-height 10s ease, padding 10s ease, opacity 0.6s ease-in-out;
+      -webkit-transition: max-height 10s ease, padding 10s ease, opacity 0.6s ease-in-out;
+      -ms-transition: max-height 10s ease, padding 10s ease, opacity 0.6s ease-in-out;
+      -o-transition: max-height 10s ease, padding 10s ease, opacity 0.6s ease-in-out;
       -moz-transition-delay: 0.25s;
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
@@ -946,9 +947,9 @@ button {
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
-          background-color: rgba(138, 204, 185, 0.5); }
+          background-color: rgba(138, 204, 185, 0.6); }
         #header nav ul li a:active {
-          background-color: rgba(138, 204, 185, 0.5); }
+          background-color: rgba(138, 204, 185, 0.6); }
   #header nav.use-middle:after {
     content: '';
     display: block;
@@ -1106,9 +1107,9 @@ button {
         background-size: 20px 20px;
         background-repeat: no-repeat; }
       #main article .close:hover:before {
-        background-color: rgba(138, 204, 185, 0.5); }
+        background-color: rgba(138, 204, 185, 0.6); }
       #main article .close:active:before {
-        background-color: rgba(138, 204, 185, 0.5); }
+        background-color: rgba(138, 204, 185, 0.6); }
   @media screen and (max-width: 736px) {
     #main article {
       padding: 3.5rem 2rem 0.5rem 2rem ; }
