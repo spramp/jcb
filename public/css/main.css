@@ -537,7 +537,7 @@ ul {
       ul.icons li a {
         border-radius: 100%;
         border-width: 1px;
-        border-style: dotted;
+        border-style: none;
         display: inline-block;
         height: 2.25rem;
         line-height: 2.25rem;
