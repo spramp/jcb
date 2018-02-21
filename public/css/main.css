@@ -1062,7 +1062,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {
