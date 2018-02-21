@@ -1,5 +1,6 @@
 +++
 title = "Blog"
+menuname = "Blog"
 weight = 30
 draft = false
 +++

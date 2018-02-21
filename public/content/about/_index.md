@@ -1,5 +1,6 @@
 +++
 title = "About"
+menuname = "About"
 weight = 10
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = "Contact"
+menuname = "Contact"
 weight = 40
 draft = false
 +++

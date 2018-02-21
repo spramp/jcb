@@ -1,5 +1,6 @@
 +++
 title = "Work"
+menuname = "Work"
 weight = 20
 draft = false
 +++
