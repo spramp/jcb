@@ -47,11 +47,12 @@
 		}
 
 		&.special {
-			background-color: _palette(fg-bold);
+			background-color: _palette(fgtitle);
 			color: _palette(fg) !important;
 			font-weight: _font(weight-bold);
 
 			&:hover {
+			background-color: _palette(border-bg);
 			}
 
 			&:active {
