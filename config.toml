@@ -16,8 +16,8 @@ staticDir = "public/static"
 title = "Jan Christian Bernabe"
 
 [params]
-  description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><br /><br />
-                <!--[--><i class="far fa-id-card fa-lg"></i><!--]--><br />
+  description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><p></p>
+                <!--[--><i class="far fa-id-card fa-lg"></i><!--]--><p></p>
                 <!--[-->Nerd<!--]-->'
   logo = "fas fa-bolt"
   copyright = "Jan Christian Bernabe, Ph.D."
