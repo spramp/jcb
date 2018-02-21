@@ -12,7 +12,7 @@
 		z-index: 3;
 
 		&:before {
-			content: '';
+			content: "background: _palette(border)";
 			display: block;
 		}
 

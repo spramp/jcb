@@ -827,7 +827,7 @@ button {
   padding: 4rem 2rem;
   z-index: 3; }
   #wrapper:before {
-    content: '';
+    content: "background: _palette(border)";
     display: block; }
   @media screen and (max-width: 1680px) {
     #wrapper {
