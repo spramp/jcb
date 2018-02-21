@@ -194,7 +194,7 @@ pre {
 
 hr {
   border: 0;
-  border-bottom: none 1px #ffe1fc;
+  border-bottom: dotted 1px #ffe1fc;
   margin: 2.75rem 0; }
 
 .align-left {

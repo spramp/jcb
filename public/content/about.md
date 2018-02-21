@@ -17,4 +17,6 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 
 If anything catches your eye, please connect with me.
 
+Jan
+
 {{< socialLinks >}}
