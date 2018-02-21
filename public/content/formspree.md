@@ -19,6 +19,7 @@ draft = true
 		<li><input type="submit" value="Send message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
+	<input type="hidden" name="_format" value="plain" />
 	<input type="hidden" name="_next" value="?sent#formspree" />
 	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
 	<input type="text" name="_gotcha" style="display:none" />
@@ -26,7 +27,7 @@ draft = true
 <span id="contactformsent">Thank you for your message</span>
 
 <script>
-$(document).ready(function($) { 
+$(document).ready(function($) {
     $(function(){
         if (window.location.search == "?sent") {
         	$('#contactform').hide();

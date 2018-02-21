@@ -4,7 +4,7 @@ weight = 40
 draft = false
 +++
 
-<form id="contactform" method="POST">
+<form id="contactform" method="post" action="https://formspree.io/janchristianbernabe@gmail.com">
 	<div class="field half first">
 		<label for="name">Your Name</label>
 		<input type="text" name="name" id="name" />
@@ -16,12 +16,29 @@ draft = false
 	<div class="field">
 		<label for="message">Message</label>
 		<textarea name="message" id="message" rows="4"></textarea>
-		<input type="text" name="_gotcha" style="display:none" />
 	</div>
 	<ul class="actions">
 		<li><input type="submit" value="Send Message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
+	<input type="hidden" name="_format" value="plain" />
+	<input type="hidden" name="_next" value="/thankyou.html" />
+	<input type="hidden" name="_subject" value="New Message from Personal Website!" />
+	<input type="text" name="_gotcha" style="display:none" />
 </form>
+<span id="contactformsent">Thank you for your message</span>
+
+<script>
+$(document).ready(function($) {
+    $(function(){
+        if (window.location.search == "?sent") {
+        	$('#contactform').hide();
+        	$('#contactformsent').show();
+        } else {
+        	$('#contactformsent').hide();
+        }
+    });
+});
+</script>
 
 {{< socialLinks >}}
