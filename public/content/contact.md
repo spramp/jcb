@@ -4,7 +4,7 @@ weight = 40
 draft = false
 +++
 
-<form id="contactform" method="post" action="https://formspree.io/janchristianbernabe@gmail.com">
+<form id="contactform" method="POST" action="https://formspree.io/janchristianbernabe@gmail.com">
 	<div class="field half first">
 		<label for="name">Your Name</label>
 		<input type="text" name="name" id="name" />
@@ -14,7 +14,7 @@ draft = false
 		<input type="text" name="_replyto" id="email" />
 	</div>
 	<div class="field">
-		<label for="message">Message</label>
+		<label for="message">Your Message</label>
 		<textarea name="message" id="message" rows="4"></textarea>
 	</div>
 	<ul class="actions">
@@ -22,7 +22,7 @@ draft = false
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
 	<input type="hidden" name="_format" value="plain" />
-	<input type="hidden" name="_next" value="/thankyou.html" />
+	<input type="hidden" name="_next" value="thankyou.html" />
 	<input type="hidden" name="_subject" value="New Message from Personal Website!" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
@@ -31,7 +31,7 @@ draft = false
 <script>
 $(document).ready(function($) {
     $(function(){
-        if (window.location.search == "?sent") {
+        if (window.location.search == "thankyou.html") {
         	$('#contactform').hide();
         	$('#contactformsent').show();
         } else {
