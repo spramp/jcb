@@ -16,3 +16,5 @@ I am a _polymath_. I possess a talent for ideation, communication, and product d
 I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully designed projects. I also aim to make processes more streamlined and better. I have a proven track-record of turning ideas into accessible, meaningful, and functional products and solutions.
 
 If anything catches your eye, please connect with me.
+
+{{< socialLinks >}}

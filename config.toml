@@ -17,7 +17,7 @@ title = "Jan Christian Bernabe"
 
 [params]
   description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><p></p>
-                <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
+                <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><hr>
                 <!--[--><p>Nerd</p><!--]-->'
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, Ph.D."
