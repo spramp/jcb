@@ -9,11 +9,10 @@
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
+
+  section {
     background-color: _palette(bg-alt);
     text-align: center;
-  }
-
-  alttext {
     letter-spacing: _font(letter-spacing);
     font-size: 2rem;
     opacity: 1;
@@ -21,3 +20,4 @@
     padding: 2rem;
     text-transform: uppercase;
   }
+}
