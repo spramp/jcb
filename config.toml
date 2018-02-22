@@ -1,4 +1,3 @@
-archetypeDir = "content/archetypes"
 baseurl = "/"
 config = "config.toml"
 contentDir = "public/content"
@@ -65,8 +64,8 @@ uglyURLs = false
 languageName = "English"
 weight = 1
 
-[Params.seo.webmaster_verifications]
-  google = "" # Optional, Google verification code
-  bing = "" # Optional, Bing verification code
-  alexa = "" # Optional, Alexa verification code
-  yandex = "" # Optional, Yandex verification code
+#[Params.seo.webmaster_verifications]#
+  # google = "" # Optional, Google verification code
+  # bing = "" # Optional, Bing verification code
+  # alexa = "" # Optional, Alexa verification code
+  # yandex = "" # Optional, Yandex verification code
