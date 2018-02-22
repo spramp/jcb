@@ -30,7 +30,7 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: double 0.25rem _palette(fbefore);
+		border-bottom: double 0.20rem _palette(fbefore);
 		text-decoration: none;
 		color: inherit;
 
@@ -40,7 +40,7 @@
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
+		color: _palette(fgtitle);
 		font-weight: _font(weight-bold);
 	}
 

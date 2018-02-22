@@ -84,14 +84,14 @@ a {
   -webkit-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
   -ms-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
   -o-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
-  border-bottom: double 0.25rem #d983b9;
+  border-bottom: double 0.2rem #d983b9;
   text-decoration: none;
   color: inherit; }
   a:hover {
     border-bottom-color: rgba(138, 204, 185, 0.6); }
 
 strong, b {
-  color: #c06aa0;
+  color: #d760b1;
   font-weight: 600; }
 
 em, i {
