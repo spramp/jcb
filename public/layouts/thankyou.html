@@ -1,22 +1,24 @@
-<html>
-	<head>
-		<title>Thank You</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/main.css" />
-    <body>
-<div>
-<h1>THANK YOU!</h1>
-<p>I will reply to your message shortly!<br>
-Return back to <a href="/" target="_blank">Jan Christian Bernabe</a>.</p>
-</div>
-<footer id="footer">
-  <p class="copyright">&copy; 2018. {{ .Site.Params.copyright }}. Powered by <a href="https://www.gohugo.io/">Hugo</a> and <a href="https://www.netlify.com">Netlify</a>.</p>
-</footer>
-<!-- Scripts -->
-  <script src="/js/skel.min.js"></script>
-  <script src="/js/util.js"></script>
-  <script src="/js/main.js"></script>
-    </body>
-  </head>
-</html>
+{{ partial "header.html" . }}
+
+<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<div class="inner">
+						<h1>Thank you for your message.</h1>
+						<p>I will reply to you shorly.</p>
+						<p>Return back to <a href="https://www.janchristianbernabe.com" target="_blank">Jan Christian Bernabe</a>.</p>
+					</div>
+				</div>
+			</header>
+
+<!-- Main -->
+	<div id="main">
+		{{ range .Data.Pages }}
+			{{ .Render "onepagestyle" }}
+		{{ end }}
+	</div>
+
+{{ partial "footer.html" . }}
