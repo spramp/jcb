@@ -1,11 +1,7 @@
 /* Other pages*/
 	#other {
-    @include vendor('flex-grow', '1');
-		@include vendor('flex-shrink', '1');
-		@include vendor('display', 'flex');
-		@include vendor('align-items', 'center');
-		@include vendor('justify-content', 'center');
-		@include vendor('flex-direction', 'column');
+    width: 100%;
+		max-width: 100%;
     background-color: _palette(bg-other);
 		position: relative;
 		max-width: 100%;
