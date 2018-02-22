@@ -6,18 +6,19 @@
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		@include vendor('flex-direction', 'column');
+    background-color: _palette(bg-other);
 		position: relative;
 		max-width: 100%;
-		z-index: 3;
+		z-index: 1;
 
   section {
-    background-color: _palette(bg-alt);
-    text-align: center;
     letter-spacing: _font(letter-spacing);
-    font-size: 2rem;
+    color: _font(fgtitle);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
     opacity: 1;
     margin: 10rem;
     padding: 2rem;
-    text-transform: uppercase;
   }
 }
