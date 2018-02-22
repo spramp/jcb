@@ -7,7 +7,7 @@ disable404 = false
 disableHugoGeneratorInject = false
 disableKinds = ["RSS"]
 enableRobotsTXT = true
-googleAnalytics = "#"
+googleAnalytics = "UA-31354104-1"
 languageCode = "en-us"
 layoutDir = "public/layouts"
 publishDir = "public"
@@ -27,7 +27,7 @@ uglyURLs = false
   site = "#"
 
 [params.google.analytics]
-  trackerID = "#"
+  trackerID = "UA-31354104-1"
 
 [[params.social]]
   medium = "linkedin"
