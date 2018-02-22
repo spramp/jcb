@@ -64,3 +64,9 @@ uglyURLs = false
 [languages.en]
 languageName = "English"
 weight = 1
+
+[Params.seo.webmaster_verifications]
+  google = "" # Optional, Google verification code
+  bing = "" # Optional, Bing verification code
+  alexa = "" # Optional, Alexa verification code
+  yandex = "" # Optional, Yandex verification code
