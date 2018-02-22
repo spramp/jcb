@@ -9,9 +9,7 @@
     background-color: _palette(bg-other);
 		position: relative;
 		max-width: 100%;
-		z-index: 1;
-
-  section {
+		z-index: 2;
     letter-spacing: _font(letter-spacing);
     color: _font(fgtitle);
     text-align: center;
@@ -20,5 +18,4 @@
     opacity: 1;
     margin: 10rem;
     padding: 2rem;
-  }
 }
