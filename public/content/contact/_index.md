@@ -3,6 +3,7 @@ title = "Contact"
 menuname = "Contact"
 weight = 40
 draft = false
+slug: "contact"
 +++
 
 <form id="contactform" method="POST">

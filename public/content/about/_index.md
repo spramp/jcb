@@ -3,6 +3,7 @@ title = "About"
 menuname = "About"
 weight = 10
 draft = false
+slug: "about"
 +++
 
 {{< figure class="image main" src="images/pic01.jpg" >}}
