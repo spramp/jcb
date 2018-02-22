@@ -544,9 +544,9 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          background-color: rgba(138, 204, 185, 0.6); }
+          color: #d760b1; }
         ul.icons li a:active {
-          background-color: rgba(138, 204, 185, 0.6); }
+          color: #d760b1; }
   ul.actions {
     cursor: pointer;
     list-style: none;
