@@ -84,7 +84,7 @@ a {
   -webkit-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
   -ms-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
   -o-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
-  border-bottom: double 1px #d983b9;
+  border-bottom: double 2rem #d983b9;
   text-decoration: none;
   color: inherit; }
   a:hover {
@@ -1069,7 +1069,7 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 4px;
     opacity: 0; }
     #main article.active {
