@@ -1,23 +1,19 @@
-<html>
-	<head>
-		<title>404 Error</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/main.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <body>
-<section id="other">
-<p class="othertext">Uh Oh! 404 Error!</p>
-<p class="othertext">Page not found</p>
-<p class="othertext">Return back to <a href="https://www.janchristianbernabe.com" target="_blank">Jan Christian Bernabe</a>.</p>
-</section>
-<footer id="footer">
-  <p class="copyright">&copy; 2018. {{ .Site.Params.copyright }}. Powered by <a href="https://www.gohugo.io/">Hugo</a> and <a href="https://www.netlify.com">Netlify</a>.</p>
-</footer>
-    </body>
-		<!-- Scripts -->sec
-		  <script src="/js/skel.min.js"></script>
-		  <script src="/js/util.js"></script>
-		  <script src="/js/main.js"></script>
-  </head>
-</html>
+{{ partial "header.html" . }}
+
+<!-- Wrapper -->
+	<div id="wrapper">
+
+			<section id="other">
+				<p class="othertext">Uh Oh! 404 Error!</p>
+				<p class="othertext">Page not found</p>
+				<p class="othertext">Return back to <a href="https://www.janchristianbernabe.com" target="_blank">Jan Christian Bernabe</a>.</p>
+			</section>
+
+<!-- Main -->
+	<div id="main">
+		{{ range .Data.Pages }}
+			{{ .Render "onepagestyle" }}
+		{{ end }}
+	</div>
+
+{{ partial "footer.html" . }}
