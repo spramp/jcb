@@ -1,17 +1,20 @@
 /* Other pages*/
+
 	#other {
     width: 100%;
 		max-width: 100%;
-    background-color: _palette(bg-other);
+    background: _palette(bg-other);
 		position: relative;
 		max-width: 100%;
 		z-index: 2;
-    letter-spacing: _font(letter-spacing);
-    color: _font(fgtitle);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 5rem;
-    opacity: 1;
-    margin: 10rem;
-    padding: 2rem;
+
+    .othertext {
+			letter-spacing: _font(letter-spacing);
+      font-size: 5rem;
+			opacity: 1;
+      margin: 10rem;
+      padding: 2rem;
+      text-transform: uppercase;
+      opacity: 1;
+		}
 }
