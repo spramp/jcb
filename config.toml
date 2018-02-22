@@ -13,10 +13,11 @@ languageCode = "en-us"
 layoutDir = "public/layouts"
 publishDir = "public"
 staticDir = "public/static"
-title = "Jan Christian Bernabe"
+title = "Jan Christian Bernabe, Ph.D. | Polymath"
 uglyURLs = false
 
 [params]
+  title = "Jan Christian Bernabe"
   description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><p></p>
                 <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
                 <!--[--><p>Nerd</p><!--]-->'
