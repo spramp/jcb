@@ -2,7 +2,6 @@
 title = "Work"
 weight = 20
 draft = false
-slug: "work"
 +++
 
 {{< figure class="image main" src="images/pic03.jpg" >}}
