@@ -1,118 +1,20 @@
-/*
-Error: Invalid CSS after "		bg-bg": expected ")", was ": rgba(138, 204..."
-        on line 36 of public/sass/libs/_vars.scss
-        from line 1 of public/sass/ie9.scss
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/* BG */
+#bg:before {
+  background: rgba(138, 204, 185, 0.3); }
 
-31: 
-32: // Palette.
-33: 	$palette: (
-34: 		bg: rgba(0, 0, 0, 0.8),
-35: 		bg-other: (rgba(87, 153, 134, 1),
-36: 		bg-bg: rgba(138, 204, 185, 0.4),
-37: 		bg-alt: rgba(224, 174, 201, 1),
-38: 		bg-overlay-light: rgba(138, 204, 185, 0.1),
-39: 		bg-overlay: rgba(138, 204, 185, 0.3),
-40: 		bg-overlay-pink:rgba(192, 106, 160, 0.3),
-41: 		fbefore: rgba(217, 131, 185, 1),
+/* Header */
+#header .logo {
+  margin: 0 auto; }
+#header .content {
+  display: inline-block; }
+#header nav ul {
+  display: inline-block; }
+  #header nav ul li {
+    display: inline-block; }
 
-Backtrace:
-public/sass/libs/_vars.scss:36
-public/sass/ie9.scss:1
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/lexer.rb:231:in `expected!'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:731:in `assert_tok'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:667:in `paren'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:619:in `square_list'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:606:in `special_fun'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:600:in `raw'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:519:in `funcall'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:500:in `ident'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_not'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_div'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_minus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_plus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `times_div_or_mod'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `plus_or_minus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `relational'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `eq_or_neq'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `and_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `or_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:474:in `space'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:415:in `interpolation'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:722:in `assert_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:334:in `map_pair'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:323:in `map'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:664:in `paren'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:619:in `square_list'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:606:in `special_fun'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:600:in `raw'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:519:in `funcall'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:500:in `ident'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_not'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_div'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_minus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:291:in `unary_plus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `times_div_or_mod'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `plus_or_minus'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `relational'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `eq_or_neq'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `and_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `or_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:474:in `space'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:415:in `interpolation'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:339:in `expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:722:in `assert_expr'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:68:in `parse'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1134:in `sass_script'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:642:in `variable'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:696:in `block_child'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:137:in `stylesheet'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:41:in `parse'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:414:in `_to_tree'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:321:in `to_tree'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:88:in `block in with_import'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:88:in `with_import'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/usr/local/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		bg-bg\": expected \")\", was \": rgba(138, 204...\"\A         on line 36 of public/sass/libs/_vars.scss\A         from line 1 of public/sass/ie9.scss\A \A 31: \A 32: // Palette.\A 33: 	$palette: (\A 34: 		bg: rgba(0, 0, 0, 0.8),\A 35: 		bg-other: (rgba(87, 153, 134, 1),\A 36: 		bg-bg: rgba(138, 204, 185, 0.4),\A 37: 		bg-alt: rgba(224, 174, 201, 1),\A 38: 		bg-overlay-light: rgba(138, 204, 185, 0.1),\A 39: 		bg-overlay: rgba(138, 204, 185, 0.3),\A 40: 		bg-overlay-pink:rgba(192, 106, 160, 0.3),\A 41: 		fbefore: rgba(217, 131, 185, 1),"; }
+/* Main */
+#main article {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=ie9.css.map */
