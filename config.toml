@@ -24,6 +24,9 @@ uglyURLs = false
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, Ph.D."
 
+[params.menuitem]
+
+
 [params.disqus]
   site = "#"
 
