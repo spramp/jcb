@@ -887,7 +887,7 @@ button {
       height: calc(3.5rem + 1px);
       background: #ffe1fc; }
   #header > :first-child {
-    margin-top: 1.5rem; }
+    margin-top: 1.0rem; }
     #header > :first-child:before {
       display: none; }
   #header .logo {
