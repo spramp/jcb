@@ -6,5 +6,6 @@ draft = false
 
 {{< figure class="image main" src="images/pic03.jpg" >}}
 
-COMING SOON
-A portfolio of things that I've created on this page soon!
+**COMING SOON!**
+
+A portfolio of fun things that I've made coming soon.

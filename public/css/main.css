@@ -913,7 +913,7 @@ button {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       -o-transition-delay: 0.25s;
-      padding: 3rem 2rem;
+      padding: 3rem 2rem 0.5rem;
       max-height: 40rem;
       overflow: hidden; }
       #header .content .inner > :last-child {
