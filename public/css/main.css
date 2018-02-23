@@ -628,7 +628,8 @@ dl {
 
 table {
   margin: 0 0 0 0;
-  width: 100%; }
+  width: 100%;
+  border-collapse: collapse; }
   table tbody tr {
     border: none 1px #ffe1fc;
     border-left: 0;
