@@ -21,5 +21,5 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 If anything catches your eye, please connect with me.
 
 <table>
-<tr><td>{{< socialLinks >}}</td><td><a href="/#work"<i class="far fa-arrow-alt-circle-right fa-2x" align="right"></i>]</a></td></tr>
+<tr><td>{{< socialLinks >}}</td><td><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-2x" align="right"></i>]</a></td></tr>
 </table>
