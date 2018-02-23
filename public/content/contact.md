@@ -34,5 +34,7 @@ draft = false
 </script>
 
 <table>
-<tr>{{< socialLinks >}}<a href="/#work"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a></tr>
+<tr>
+<td>{{< socialLinks >}}</td><td class="icons"<a href="/#work"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a></td>
+</tr>
 </table>
