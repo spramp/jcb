@@ -34,7 +34,6 @@ draft = false
 </script>
 
 <table>
-<tr>
-<td>{{< socialLinks >}}</td><tr><td class="icons"><a href="/#blog"><i class="fas fa arrow-alt-circle-left fa-lg"></i></a><i class="icons"><a href="/"><i class="fas fa times-circle fa-lg"></i></a><a href="/#about"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
-</tr>
+<tr><td>{{< socialLinks >}}</td></tr>
+<tr><td class="icons"><a href="/#blog"><i class="far fa arrow-alt-circle-left fa-lg"></i></a><i class="icons"><a href="/"><i class="far fa times-circle fa-lg"></i></a><a href="/#about"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
