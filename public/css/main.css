@@ -517,7 +517,7 @@ ol {
 
 ul {
   list-style: disc;
-  margin: 0 0 0 0;
+  margin: 0;
   padding-left: 1em; }
   ul li {
     padding-left: 0.5em; }
@@ -627,16 +627,16 @@ dl {
   overflow-x: auto; }
 
 table {
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
   width: 100%; }
   table tbody tr {
-    border: none 1px #ffe1fc;
+    border: dotted 1px #ffe1fc;
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
       background-color: rgba(0, 0, 0, 0); }
   table td {
-    padding: 0.75em 0.75em; }
+    padding: 0.2rem; }
   table th {
     color: rgba(0, 0, 0, 0.8);
     font-size: 0.9em;
