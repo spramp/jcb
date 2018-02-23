@@ -34,11 +34,11 @@
 		}
 
 		thead {
-			border-bottom: dotted (_size(border-width) * 2) _palette(border);
+			border-bottom: none (_size(border-width) * 2) _palette(border);
 		}
 
 		tfoot {
-			border-top: dotted (_size(border-width) * 2) _palette(border);
+			border-top: none (_size(border-width) * 2) _palette(border);
 		}
 
 		&.alt {
@@ -47,7 +47,7 @@
 			tbody {
 				tr {
 					td {
-						border: dotted _size(border-width) _palette(border);
+						border: none _size(border-width) _palette(border);
 						border-left-width: 0;
 						border-top-width: 0;
 

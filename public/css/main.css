@@ -644,13 +644,13 @@ table {
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
-    border-bottom: dotted 2px #ffe1fc; }
+    border-bottom: none 2px #ffe1fc; }
   table tfoot {
-    border-top: dotted 2px #ffe1fc; }
+    border-top: none 2px #ffe1fc; }
   table.alt {
     border-collapse: separate; }
     table.alt tbody tr td {
-      border: dotted 1px #ffe1fc;
+      border: none 1px #ffe1fc;
       border-left-width: 0;
       border-top-width: 0; }
       table.alt tbody tr td:first-child {
