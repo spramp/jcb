@@ -630,7 +630,7 @@ table {
   margin: 0 0 0 0;
   width: 100%; }
   table tbody tr {
-    border: dotted 1px #ffe1fc;
+    border: none 1px #ffe1fc;
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
