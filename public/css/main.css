@@ -650,7 +650,8 @@ table {
         table tbody tr:nth-child(2n + 1) a:active {
           color: #d760b1; }
   table td {
-    padding: 0.2rem; }
+    padding: 0.2rem;
+    text-align: right; }
   table th {
     color: rgba(0, 0, 0, 0.8);
     font-size: 0.9em;
