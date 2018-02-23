@@ -35,6 +35,6 @@ draft = false
 
 <table>
 <tr>
-<td>{{< socialLinks >}}</td><td class="icons"<a href="/#work"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a></td>
+<td>{{< socialLinks >}}</td><tr><td class="icons"><a href="/#blog"><i class="fas fa arrow-alt-circle-left fa-lg"></i></a><i class="icons"><a href="/"><i class="fas fa times-circle fa-lg"></i></a><a href="/#about"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </tr>
 </table>
