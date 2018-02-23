@@ -33,4 +33,6 @@ draft = false
     contactform.setAttribute('action', '//formspree.io/' + 'janchristianbernabe' + '@' + 'gmail' + '.' + 'com');
 </script>
 
-{{< socialLinks >}}
+<table>
+<tr><td><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-2x" align="right"></i></a></td><td>{{< socialLinks >}}</td></tr>
+</table>
