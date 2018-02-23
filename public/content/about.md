@@ -21,3 +21,4 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 If anything catches your eye, please connect with me.
 
 {{< socialLinks >}}
+<i class="fas fa-ban fa-3x fa-spin"></i>
