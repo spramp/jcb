@@ -635,6 +635,19 @@ table {
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
       background-color: rgba(0, 0, 0, 0); }
+      table tbody tr:nth-child(2n + 1) a {
+        border-radius: 100%;
+        border-width: 1px;
+        border-style: none;
+        display: inline-block;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        text-align: center;
+        width: 2.25rem; }
+        table tbody tr:nth-child(2n + 1) a:hover {
+          color: #d760b1; }
+        table tbody tr:nth-child(2n + 1) a:active {
+          color: #d760b1; }
   table td {
     padding: 0.2rem; }
   table th {
