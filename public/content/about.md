@@ -6,7 +6,6 @@ draft = false
 
 {{< figure class="image main" src="images/pic01.jpg" >}}
 
-<table>
 **Professional Summary**
 
 I am _curious_. I have carried a sense of wonder and discovery since childhood. As a kid, I often took household gadgets methodically apart and reassembled them later to figure out how they worked. To this day curiosity and problem-solving have worked in tandem with how I approach new projects and processes.
@@ -20,8 +19,7 @@ I am a _polymath_. I possess a talent for ideation, communication, and product d
 I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully designed projects. I also aim to make processes more streamlined and better. I have a proven track-record of turning ideas into accessible, meaningful, and functional products and solutions.
 
 If anything catches your eye, please connect with me.
-</table>
 
 <table>
-<tr><td align="left">{{< socialLinks >}}</td><td><i class="far fa-arrow-alt-circle-right fa-2x" align="right"></i></td></tr>
+<tr><td>{{< socialLinks >}}</td><td>[<i class="far fa-arrow-alt-circle-right fa-2x" align="right"></i>]({{< relref "#work" >}})</td></tr>
 </table>
