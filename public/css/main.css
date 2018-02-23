@@ -108,17 +108,17 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.35rem; }
 
-h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
   color: #c06aa0;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.35rem; }
-  h2 a, h3 a, h4 a, h5 a, h6 a {
+  h2 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
-  h2.major, h3.major, h4.major, h5.major, h6.major {
+  h2.major, h4.major, h5.major, h6.major {
     border-bottom: dotted 1px #ffe1fc;
     width: -moz-max-content;
     width: -webkit-max-content;
