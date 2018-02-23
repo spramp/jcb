@@ -652,10 +652,6 @@ table {
           color: #d760b1; }
   table td {
     padding: 0.2rem; }
-  table .icons td:nth-child(1) {
-    text-align: left; }
-  table .icons td:nth-child(2) {
-    text-align: right; }
   table th {
     color: rgba(0, 0, 0, 0.8);
     font-size: 0.9em;
