@@ -630,7 +630,7 @@ table {
   margin: 0 0 2rem 0;
   width: 100%; }
   table tbody tr {
-    border: dotted 1px #ffe1fc;
+    border: none 1px #ffe1fc;
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
@@ -638,7 +638,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #c06aa0;
+    color: rgba(0, 0, 0, 0.8);
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;

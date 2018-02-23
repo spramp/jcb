@@ -11,7 +11,7 @@
 
 		tbody {
 			tr {
-				border: dotted _size(border-width) _palette(border);
+				border: none _size(border-width) _palette(border);
 				border-left: 0;
 				border-right: 0;
 
@@ -26,7 +26,7 @@
 		}
 
 		th {
-			color: _palette(fg-bold);
+			color: _palette(bg);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
 			padding: 0 0.75em 0.75em 0.75em;
