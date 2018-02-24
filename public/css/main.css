@@ -1161,6 +1161,12 @@ button {
     opacity: 1;
     margin-bottom: 0;
     text-transform: uppercase; }
+  #footer .social {
+    letter-spacing: 0.35rem;
+    font-size: 1rem;
+    opacity: 1;
+    margin-bottom: 0;
+    text-transform: none; }
   body.is-article-visible #footer {
     -moz-transform: scale(0.95);
     -webkit-transform: scale(0.95);
