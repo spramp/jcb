@@ -33,31 +33,37 @@ uglyURLs = false
   medium = "linkedin"
   icon = "linkedin"
   link = "https://www.linkedin.com/in/janchristianbernabe"
+  weight = "10"
 
 [[params.social]]
   medium = "amazon"
   icon = "amazon"
   link = "https://www.amazon.com/Jan-Christian-Bernabe/e/B06W541XK7/ref=dp_byline_cont_ebooks_2"
+  weight = "20"
 
 [[params.social]]
   medium = "quora"
   icon = "quora"
   link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
+  weight = "30"
 
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
   link = "https://www.twitter.com/spramp"
+  weight = "40"
 
 [[params.social]]
   medium = "github"
   icon = "github"
   link = "https://www.github.com/spramp"
+  weight = "50"
 
 [[params.social]]
     medium = "spotify"
     icon = "spotify"
     link = "https://open.spotify.com/user/spramp"
+    weight = "60"
 
 [languages]
 [languages.en]
