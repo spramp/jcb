@@ -19,5 +19,5 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 If anything catches your eye, please connect with me.
 
 <table>
-<tr><td class="icons"><a href="/#cotact"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><div="close"<i class="icons"><a href="/"></div><i class="far fa-times-circle fa-lg"></i></a><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
+<tr><td class="icons"><a href="/#cotact"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><div="close"><i class="icons"><a href="/"></div><i class="far fa-times-circle fa-lg"></i></a><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
