@@ -1,7 +1,7 @@
 <section>
 
     <footer id="social">
-    {{< socialLinks >}}
+    {{ .Site.Params.social | safeHTML }}
     </footer>
 
 </section>
