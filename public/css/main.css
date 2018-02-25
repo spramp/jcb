@@ -91,7 +91,7 @@ a {
     border-bottom-color: rgba(138, 204, 185, 0.6); }
 
 strong, b {
-  color: #d760b1;
+  color: #a4e6d3;
   font-weight: 600; }
 
 em, i {
@@ -101,6 +101,14 @@ p {
   margin: 0 0 2rem 0; }
 
 h1 {
+  color: #a4e6d3;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem; }
+
+h2 {
   color: #d760b1;
   font-weight: 600;
   line-height: 1.5;
@@ -108,17 +116,16 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.35rem; }
 
-h2, h4, h5, h6 {
-  color: #c06aa0;
+h4, h5, h6 {
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.35rem; }
-  h2 a, h4 a, h5 a, h6 a {
+  h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
-  h2.major, h4.major, h5.major, h6.major {
+  h4.major, h5.major, h6.major {
     border-bottom: dotted 1px #ffe1fc;
     width: -moz-max-content;
     width: -webkit-max-content;
@@ -289,8 +296,7 @@ textarea {
   select:focus,
   textarea:focus {
     background: rgba(138, 204, 185, 0.6);
-    border-color: #c06aa0;
-    box-shadow: 0 0 0 1px #c06aa0; }
+    box-shadow: 0 0 0 1px; }
 
 select option {
   background: rgba(0, 0, 0, 0.8);
@@ -386,15 +392,14 @@ input[type="radio"] {
       width: 1.65rem; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #c06aa0 !important;
-    border-color: #c06aa0 !important;
+    background: !important;
+    border-color: !important;
     color: rgba(0, 0, 0, 0.8);
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
     background: rgba(138, 204, 185, 0.6);
-    border-color: #c06aa0;
-    box-shadow: 0 0 0 1px #c06aa0; }
+    box-shadow: 0 0 0 1px; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -740,7 +745,7 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #d760b1;
+    background-color: #a4e6d3;
     color: #ffe1fc !important;
     font-weight: 600; }
     input[type="submit"].special:hover,
