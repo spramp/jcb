@@ -26,7 +26,7 @@ draft = false
 	<input type="hidden" name="_subject" value="New Message from Personal Website!" />
 	<input type="text" name="_gotcha" style="display:none" />
 	</form>
-	<h3>Thank you for your message</h3>
+	<h3>Thank you for your message.</h3>
 
 <script>
     var contactform =  document.getElementById('contactform');
