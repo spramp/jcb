@@ -697,7 +697,7 @@ button,
   -webkit-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
   -ms-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
   -o-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
-  background-color: transparent;
+  background-color: rgba(138, 204, 185, 0.6);
   border-radius: 4px;
   border: dotted 1px;
   color: #ffe1fc !important;
@@ -745,7 +745,7 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #a4e6d3;
+    background-color: rgba(138, 204, 185, 0.6);
     color: #ffe1fc !important;
     font-weight: 600; }
     input[type="submit"].special:hover,
@@ -753,7 +753,7 @@ button,
     input[type="button"].special:hover,
     button.special:hover,
     .button.special:hover {
-      background-color: rgba(138, 204, 185, 0.6); }
+      background-color: rgba(138, 204, 185, 0.1); }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
