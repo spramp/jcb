@@ -18,8 +18,6 @@ So _here we are face-to-face, a couple of silver spoons_ — ah the 80s! — and
 
 If you want to reach me, shoot me an message in the _Contact_ tab, and I’ll get back to you as soon as I can. For now, “Hello world” (again).
 
-{{ template "_internal/disqus.html" . }}
-
 <table>
 <tr><td class="icons"><a href="/#work"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#contact"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
