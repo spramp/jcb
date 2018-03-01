@@ -6,14 +6,18 @@ defaultContentLanguage = "en"
 disable404 = false
 disableHugoGeneratorInject = false
 disableKinds = ["RSS"]
+disqusShortname = "janchristianbernabe-1"
 enableRobotsTXT = true
 googleAnalytics = "UA-31354104-1"
 languageCode = "en-us"
 layoutDir = "public/layouts"
 publishDir = "public"
-staticDir = "public/static"
 title = "Jan Christian Bernabe, Ph.D. | Polymath"
 uglyURLs = false
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
 
 [params]
   title = "Jan Christian Bernabe"
@@ -24,7 +28,7 @@ uglyURLs = false
   copyright = "Jan Christian Bernabe, Ph.D."
 
 [params.disqus]
-  site = "#"
+  site = ""
 
 [params.google.analytics]
   trackerID = "UA-31354104-1"

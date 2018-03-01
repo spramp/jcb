@@ -1,5 +1,7 @@
 +++
 title = "About"
+keywords =
+markup = "md"
 weight = 10
 draft = false
 +++
@@ -17,6 +19,8 @@ I am a _polymath_. I possess a talent for ideation, communication, and product d
 I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully designed projects. I also aim to make processes more streamlined and better. I have a proven track-record of turning ideas into accessible, meaningful, and functional products and solutions.
 
 If anything catches your eye, please connect with me.
+
+{{ template "_internal/disqus.html" . }}
 
 <table>
 <tr><td class="icons"><a href="/#contact"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
