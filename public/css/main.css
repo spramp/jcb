@@ -948,7 +948,7 @@ button {
     #header .content p {
       text-transform: uppercase;
       letter-spacing: 0.35rem;
-      color: rgba(217, 131, 185, 0.5);
+      color: palette(fg);
       font-size: 0.8rem;
       line-height: 2; }
   #header nav ul {
