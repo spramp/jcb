@@ -81,9 +81,9 @@
 
 			p {
 				text-transform: uppercase;
-				cursor: url(ic-face-32px.cur), url(http://www.janchristianbernabe.com/images/ic-face-32px.png), auto;
+				// cursor: url(ic-face-32px.cur), url(http://www.janchristianbernabe.com/images/ic-face-32px.png), auto; //
 				letter-spacing: _font(letter-spacing);
-				color: rgba(217, 131, 185, 1);
+				color: rgba(217, 131, 185, 0.5);
 				font-size: 0.8rem;
 				line-height: 2;
 			}
