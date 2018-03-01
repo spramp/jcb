@@ -19,8 +19,6 @@ I am a _maker_. With an eye for aesthetics, I strive to create thoughtfully desi
 
 If anything catches your eye, please connect with me.
 
-{{ template "_internal/disqus.html" . }}
-
 <table>
 <tr><td class="icons"><a href="/#contact"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#work"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
