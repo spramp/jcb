@@ -26,7 +26,7 @@ collections:
       - label: "Publish Date"
         name: "date"
         required: false
-        widget: "datetime"
+        widget: "date"
         default: true
 
       - label: "Draft"
@@ -71,6 +71,12 @@ collections:
         name: "coverImage"
         required: false
         widget: "image"
+
+     - label: "Add file"
+       name: "add_file"
+       required: false
+       widget: "file"
+       default: "images/uploads"
 
       - label: "Body"
         name: "body"
