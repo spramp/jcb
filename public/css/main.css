@@ -947,7 +947,9 @@ button {
         margin-bottom: 0; }
     #header .content p {
       text-transform: uppercase;
+      cursor: url(images/face.svg);
       letter-spacing: 0.35rem;
+      color: _rgba(217, 131, 185, 1);
       font-size: 0.8rem;
       line-height: 2; }
   #header nav ul {
