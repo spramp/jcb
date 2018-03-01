@@ -1,6 +1,5 @@
 +++
 title = "About"
-keywords =
 markup = "md"
 weight = 10
 draft = false
