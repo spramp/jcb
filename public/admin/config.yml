@@ -72,11 +72,11 @@ collections:
         required: false
         widget: "image"
 
-     - label: "Add file"
-       name: "add_file"
-       required: false
-       widget: "file"
-       default: "images/uploads"
+      - label: "Add file"
+        name: "add_file"
+        required: false
+        widget: "file"
+        default: "images/uploads"
 
       - label: "Body"
         name: "body"
