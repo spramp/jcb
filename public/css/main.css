@@ -820,7 +820,7 @@ button {
     -webkit-transition: -webkit-transform 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out;
     -ms-transition: -ms-transform 0.7s ease-in-out, -ms-filter 0.7s ease-in-out;
     -o-transition: -o-transform 0.7s ease-in-out, -o-filter 0.7s ease-in-out;
-    background-image: url("/static/images/bg.jpg");
+    background-image: url("/images/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
