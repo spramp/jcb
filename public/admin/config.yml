@@ -1,9 +1,9 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: spramp/jcb
   display_url: https://janchristianbernabe.com
   publish_mode: editorial_workflow
-  media_folder: "public/static/images/uploads/"
+  media_folder: "static/images/uploads/"
   public_folder: "/images/uploads"
 
 collections:
@@ -72,7 +72,7 @@ collections:
         name: "add_file"
         required: false
         widget: "file"
-        default: "/static/images/uploads"
+        default: "static/images/uploads"
 
       - label: "Body"
         name: "body"
