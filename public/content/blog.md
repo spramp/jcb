@@ -1,5 +1,6 @@
 +++
 title = "Blog"
+markup = "md"
 weight = 30
 draft = false
 +++

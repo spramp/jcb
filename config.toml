@@ -7,13 +7,21 @@ disable404 = false
 disableHugoGeneratorInject = false
 disableKinds = ["RSS"]
 disqusShortname = "janchristianbernabe-1"
+enableEmoji= true
 enableRobotsTXT = true
 googleAnalytics = "UA-31354104-1"
 languageCode = "en-us"
 layoutDir = "public/layouts"
+metaDataFormat = "toml"
 publishDir = "public"
+resourceDir = "public/resources"
 title = "Jan Christian Bernabe, Ph.D. | Polymath"
 uglyURLs = false
+
+[imaging]
+resampleFilter = "Gaussian"
+quality = 85
+anchor = "smart"
 
 [outputs]
   home = ["HTML"]

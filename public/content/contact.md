@@ -1,5 +1,6 @@
 +++
 title = "Contact"
+markup = "md"
 weight = 40
 draft = false
 +++

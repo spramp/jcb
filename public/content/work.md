@@ -1,5 +1,6 @@
 +++
 title = "Work"
+markup = "md"
 weight = 20
 draft = false
 +++
