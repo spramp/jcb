@@ -15,6 +15,7 @@ layoutDir = "public/layouts"
 metaDataFormat = "toml"
 publishDir = "public"
 resourceDir = "public/resources"
+staticDir = "public/static"
 title = "Jan Christian Bernabe, Ph.D. | Polymath"
 uglyURLs = false
 
