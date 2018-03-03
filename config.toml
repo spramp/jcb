@@ -21,7 +21,7 @@ uglyURLs = true
 
 [imaging]
 resampleFilter = "Gaussian"
-quality = 85
+quality = 65
 anchor = "smart"
 
 [outputs]
