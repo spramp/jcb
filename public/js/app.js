@@ -13,8 +13,7 @@ $.ajax({
     async: true,
 })
   .done(function( json ) {
-     $( "<h1>" ).text( json.title ).appendTo( "body" );
-     $( "<div class=\"content\">").html( json.html ).appendTo( "body" );
+     $( "<div class="song" ).text( json.title ).appendTo( "body" );
   })
   .fail(function( xhr, status, errorThrown ) {
     alert( "Sorry, there was a problem!" );
