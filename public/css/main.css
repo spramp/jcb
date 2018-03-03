@@ -555,7 +555,7 @@ ul {
         text-align: center;
         width: 2.25rem; }
         ul.icons li a:hover {
-          color: #ffe1fc; }
+          color: #d760b1; }
         ul.icons li a:active {
           color: #ffe1fc; }
   ul.actions {
@@ -652,9 +652,9 @@ table {
         text-align: center;
         width: 2.25rem; }
         table tbody tr:nth-child(2n + 1) a:hover {
-          color: #d760b1; }
+          color: #ffe1fc; }
         table tbody tr:nth-child(2n + 1) a:active {
-          color: #d760b1; }
+          color: #ffe1fc; }
   table td {
     padding: 1rem 0 0 0;
     text-align: center; }
