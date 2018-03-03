@@ -80,10 +80,10 @@ body, input, select, textarea {
   line-height: 1.4; }
 
 a {
-  -moz-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
-  -webkit-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
-  -ms-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
-  -o-transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, border-bottom-color 0.7s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
   border-bottom: double 0.2rem #a4e6d3;
   text-decoration: none;
   color: inherit; }
@@ -269,10 +269,10 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  -moz-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-  -webkit-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-  -ms-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-  -o-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -ms-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
   background: transparent;
   border-radius: 4px;
   border: dotted 1px #ffe1fc;
@@ -375,10 +375,10 @@ input[type="radio"] {
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      -moz-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-      -webkit-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-      -ms-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
-      -o-transition: border-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out;
+      -moz-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      -webkit-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      -ms-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      -o-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
       border-radius: 4px;
       border: dotted 1px #ffe1fc;
       content: '';
@@ -693,10 +693,10 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  -moz-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
-  -webkit-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
-  -ms-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
-  -o-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
   border: dotted 1px;
@@ -798,14 +798,14 @@ button {
     width: 100%;
     height: 100%; }
   #bg:before {
-    -moz-transition: background-color 2s ease-in-out;
-    -webkit-transition: background-color 2s ease-in-out;
-    -ms-transition: background-color 2s ease-in-out;
-    -o-transition: background-color 2s ease-in-out;
-    -moz-transition-delay: 2s;
-    -webkit-transition-delay: 2s;
-    -ms-transition-delay: 2s;
-    -o-transition-delay: 2s;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -moz-transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
     background-image: linear-gradient(to top, rgba(138, 204, 185, 0.3), rgba(192, 106, 160, 0.3), rgba(138, 204, 185, 0.3));
     background-size: auto, 256px 256px;
     background-position: center, center;
@@ -816,10 +816,10 @@ button {
     -webkit-transform: scale(1.125);
     -ms-transform: scale(1.125);
     -o-transform: scale(1.125);
-    -moz-transition: -moz-transform 0.7s ease-in-out, -moz-filter 0.7s ease-in-out;
-    -webkit-transition: -webkit-transform 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out;
-    -ms-transition: -ms-transform 0.7s ease-in-out, -ms-filter 0.7s ease-in-out;
-    -o-transition: -o-transform 0.7s ease-in-out, -o-filter 0.7s ease-in-out;
+    -moz-transition: -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+    -ms-transition: -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out, -o-filter 0.5s ease-in-out;
     background-image: url("/images/bg.jpg");
     background-position: center;
     background-size: cover;
@@ -887,10 +887,10 @@ button {
   -webkit-align-items: center;
   -ms-align-items: center;
   -o-align-items: center;
-  -moz-transition: -moz-transform 0.7s ease-in-out, -moz-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -webkit-transition: -webkit-transform 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -ms-transition: -ms-transform 0.7s ease-in-out, -ms-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -o-transition: -o-transform 0.7s ease-in-out, -o-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, -o-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
   background-image: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
   background-image: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
   background-image: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
@@ -898,10 +898,10 @@ button {
   max-width: 100%;
   text-align: center; }
   #header > * {
-    -moz-transition: opacity 0.7s ease-in-out;
-    -webkit-transition: opacity 0.7s ease-in-out;
-    -ms-transition: opacity 0.7s ease-in-out;
-    -o-transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
     position: relative;
     margin-top: 0;
     margin-bottom: 1.0rem; }
@@ -932,10 +932,10 @@ button {
     border-bottom-width: 1px;
     max-width: 100%; }
     #header .content .inner {
-      -moz-transition: max-height 2s ease, padding 2s ease, opacity 0.7s ease-in-out;
-      -webkit-transition: max-height 2s ease, padding 2s ease, opacity 0.7s ease-in-out;
-      -ms-transition: max-height 2s ease, padding 2s ease, opacity 0.7s ease-in-out;
-      -o-transition: max-height 2s ease, padding 2s ease, opacity 0.7s ease-in-out;
+      -moz-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.5s ease-in-out;
+      -webkit-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.5s ease-in-out;
+      -ms-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.5s ease-in-out;
+      -o-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.5s ease-in-out;
       -moz-transition-delay: 0.25s;
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
@@ -1089,10 +1089,10 @@ button {
     -webkit-transform: translateY(0.25rem);
     -ms-transform: translateY(0.25rem);
     -o-transform: translateY(0.25rem);
-    -moz-transition: opacity 0.7s ease-in-out, -moz-transform 0.7s ease-in-out;
-    -webkit-transition: opacity 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
-    -ms-transition: opacity 0.7s ease-in-out, -ms-transform 0.7s ease-in-out;
-    -o-transition: opacity 0.7s ease-in-out, -o-transform 0.7s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out, -moz-transform 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out, -ms-transform 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out, -o-transform 0.5s ease-in-out;
     padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
     position: relative;
     width: 40rem;
@@ -1118,10 +1118,10 @@ button {
       overflow: hidden;
       white-space: nowrap; }
       #main article .close:before {
-        -moz-transition: background-color 0.7s ease-in-out;
-        -webkit-transition: background-color 0.7s ease-in-out;
-        -ms-transition: background-color 0.7s ease-in-out;
-        -o-transition: background-color 0.7s ease-in-out;
+        -moz-transition: background-color 0.3s ease-in-out;
+        -webkit-transition: background-color 0.3s ease-in-out;
+        -ms-transition: background-color 0.3s ease-in-out;
+        -o-transition: background-color 0.3s ease-in-out;
         content: '';
         display: block;
         position: absolute;
@@ -1153,10 +1153,10 @@ button {
 
 /* Footer */
 #footer {
-  -moz-transition: -moz-transform 0.7s ease-in-out, -moz-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -webkit-transition: -webkit-transform 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -ms-transition: -ms-transform 0.7s ease-in-out, -ms-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
-  -o-transition: -o-transform 0.7s ease-in-out, -o-filter 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, -o-filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
   width: 100%;
   max-width: 100%;
   margin-top: 2rem;

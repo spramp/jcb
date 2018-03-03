@@ -1,17 +1,4 @@
 {{ partial "header.html" . }}
-<script>
-$(document).ready(function(){
-var lastUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=twentysixlicks&api_key=336d6c1e30852f655412888f276a0112&limit=1&format=json";
-
-	$("button").click(function(){
-        $.getJSON("lastUrl", function(result){
-            $.each(result, function(i, field){
-                $("section").append(field + " ");
-            });
-        });
-    });
-});
-</script>
 {{ partial "site_header.html" . }}
 
 <!-- Wrapper -->
@@ -20,8 +7,6 @@ var lastUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&use
 		<!-- Header -->
 			<header id="header">
 				<div class="content">
-				<button>Test</button><br>
-				<section></section>
 					<i class="fas fa-ban fa-3x fa-spin"></i>
 					<div class="inner">
 						<h1>Uh Oh! 404 Error!</h1>
