@@ -21,7 +21,7 @@
     }
 
     &:before {
-      @include vendor('transition', 'background-color #{_duration(bg-bg)} ease-in-out');
+      // @include vendor('transition', 'background-color #{_duration(bg-bg)} ease-in-out');
       // @include vendor('transition', 'background-color #{_duration(intro)} ease-in-out');
       background-image: linear-gradient(to top, #{_palette(bg-overlay)}, #{_palette(bg-overlay-pink)}, #{_palette(bg-overlay)});
 
