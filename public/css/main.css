@@ -1089,10 +1089,10 @@ button {
     -webkit-transform: translateY(0.25rem);
     -ms-transform: translateY(0.25rem);
     -o-transform: translateY(0.25rem);
-    -moz-transition: opacity 0.5s ease-in-out, -moz-transform 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
-    -ms-transition: opacity 0.5s ease-in-out, -ms-transform 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out, -o-transform 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s steps(5, end), -moz-transform 0.5s steps(5, end);
+    -webkit-transition: opacity 0.5s steps(5, end), -webkit-transform 0.5s steps(5, end);
+    -ms-transition: opacity 0.5s steps(5, end), -ms-transform 0.5s steps(5, end);
+    -o-transition: opacity 0.5s steps(5, end), -o-transform 0.5s steps(5, end);
     padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
     position: relative;
     width: 40rem;

@@ -13,8 +13,8 @@
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
-				'opacity #{_duration(article)} ease-in-out',
-				'transform #{_duration(article)} ease-in-out'
+				'opacity #{_duration(article)} steps(5, end)',
+				'transform #{_duration(article)} steps(5, end)'
 			));
 			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
 			position: relative;
