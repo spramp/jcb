@@ -9,8 +9,6 @@ draft = false
 
 **COMING SOON!**
 
-<div="song">Current Soundtrack</div>
-
 A portfolio of fun things that I've made coming soon.
 
 <table>
