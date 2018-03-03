@@ -1,8 +1,29 @@
-(function($) {
+jQuery.noConflict();
+
+(function( $ ) {
 
 var lastUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=twentysixlicks&api_key=336d6c1e30852f655412888f276a0112&limit=1&format=json";
 
-$.getJSON(lastUrl, function (data) {
-    console.log(data);
+$.ajax({
+     url: "lastUrl",
+    },
+
+    type: "GET",
+    dataType : "json",
+    async: true,
+})
+  .done(function( json ) {
+     $( "<h1>" ).text( json.title ).appendTo( "body" );
+     $( "<div class=\"content\">").html( json.html ).appendTo( "body" );
+  })
+  .fail(function( xhr, status, errorThrown ) {
+    alert( "Sorry, there was a problem!" );
+    console.log( "Error: " + errorThrown );
+    console.log( "Status: " + status );
+    console.dir( xhr );
+  })
+  .always(function( xhr, status ) {
+    alert( "The request is complete!" );
   });
-}(jQuery);
+
+})(jQuery);
