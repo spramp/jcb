@@ -6,7 +6,6 @@ draft = false
 +++
 
 {{< figure class="image main" src="images/pic01.jpg" >}}
-<p>{{ .Site.Params.description | safeHTML }}</p>
 
 I am _curious_. I have carried a sense of wonder and discovery since childhood. As a kid, I often took household gadgets methodically apart and reassembled them later to figure out how they worked. To this day curiosity and problem-solving have worked in tandem with how I approach new projects and processes.
 
