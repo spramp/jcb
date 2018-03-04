@@ -16,12 +16,12 @@ metaDataFormat = "toml"
 publishDir = "public"
 resourceDir = "public/resources"
 staticDir = "public/static"
-title = "Jan Christian Bernabe, Ph.D. | Polymath"
+title = "Jan Christian Bernabe, Ph.D. | Nerd"
 uglyURLs = true
 
 [imaging]
 resampleFilter = "Gaussian"
-quality = 65
+quality = 60
 anchor = "smart"
 
 [outputs]
