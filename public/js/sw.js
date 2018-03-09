@@ -5,7 +5,6 @@ caches.open('jcb').then(function(cache) {
 return cache.addAll([
 '/',
 '/layouts/index.html',
-'/layouts/index.html?homescreen=1',
 '/css/',
 '/js/',
 ''
