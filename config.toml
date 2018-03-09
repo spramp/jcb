@@ -43,37 +43,37 @@ anchor = "smart"
 
 [[params.social]]
   medium = "linkedin"
-  icon = "linkedin"
+  icon = "fab fa-linkedin fa-lg"
   link = "https://www.linkedin.com/in/janchristianbernabe"
   weight = "10"
 
 [[params.social]]
   medium = "amazon"
-  icon = "amazon"
+  icon = "fab fa-amazon fa-lg"
   link = "https://www.amazon.com/Jan-Christian-Bernabe/e/B06W541XK7/ref=dp_byline_cont_ebooks_2"
   weight = "20"
 
 [[params.social]]
   medium = "quora"
-  icon = "quora"
+  icon = "fab fa-quora fa-lg"
   link = "https://www.quora.com/profile/Jan-Christian-Bernabe"
   weight = "30"
 
 [[params.social]]
   medium = "twitter"
-  icon = "twitter"
+  icon = "fab fa-twitter fa-lg"
   link = "https://www.twitter.com/spramp"
   weight = "40"
 
 [[params.social]]
   medium = "github"
-  icon = "github"
+  icon = "fab fa-github fa-lg"
   link = "https://www.github.com/spramp"
   weight = "50"
 
 [[params.social]]
   medium = "spotify"
-  icon = "spotify"
+  icon = "fab fa-spotify fa-lg"
   link = "https://open.spotify.com/user/spramp"
   weight = "60"
 
