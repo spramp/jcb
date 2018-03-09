@@ -21,9 +21,10 @@
     }
 
     &:before {
-      // @include vendor('transition', 'background-color #{_duration(bg-bg)} ease-in-out');
-      // @include vendor('transition', 'background-color #{_duration(intro)} ease-in-out');
-      background-image: linear-gradient(to top, #{_palette(fgtitle)}, #{_palette(bg)};
+      //@include vendor('transition', 'background-color #{_duration(bg)} ease-in-out');
+      //@include vendor('transition-delay', '#{_duration(intro)}');
+      background-image: linear-gradient(to top, #{_palette(fg)}, #{_palette(fgtitle)}),
+                  #{_palette(fg)};
       background-size: auto,
                   256px 256px;
       background-position: center,
