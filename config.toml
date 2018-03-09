@@ -30,8 +30,7 @@ anchor = "smart"
 
 [params]
   title = "Jan Christian Bernabe"
-  description = '<!--[-->Thought Leader | Maker | Growth Hacker | Polymath<!--]--><p></p>
-                <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
+  description = '<!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
                 <!--[--><p>Nerd</p><!--]-->'
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, Ph.D."
@@ -73,10 +72,39 @@ anchor = "smart"
   weight = "50"
 
 [[params.social]]
-    medium = "spotify"
-    icon = "spotify"
-    link = "https://open.spotify.com/user/spramp"
-    weight = "60"
+  medium = "spotify"
+  icon = "spotify"
+  link = "https://open.spotify.com/user/spramp"
+  weight = "60"
+
+[[menu.main]]
+  name = "About"
+  title = "About | JCB"
+  weight = "1"
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Work"
+  title = "Work | JCB"
+  weight = "2"
+  identifier = "work"
+  url = "/work/"
+
+[[menu.main]]
+  name = "Blog"
+  title = "Blog | JCB"
+  weight = "3"
+  identifier = "blog"
+  url = "/blog/"
+
+[[menu.main]]
+  name = "Contact"
+  title = "Contact | JCB"
+  weight = "4"
+  identifier = "contact"
+  url = "/contact/"
+
 
 [languages]
 [languages.en]
