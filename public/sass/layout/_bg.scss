@@ -23,7 +23,6 @@
     &:before {
       //@include vendor('transition', 'background-color #{_duration(bg)} ease-in-out');
       //@include vendor('transition-delay', '#{_duration(intro)}');
-      background: #{_palette(fg)};
       background-image: linear-gradient(to top, #{_palette(fg)}, #{_palette(fgtitle)}),
                   #{_palette(fg)};
       background-size: auto,

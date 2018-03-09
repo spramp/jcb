@@ -798,7 +798,6 @@ button {
     width: 100%;
     height: 100%; }
   #bg:before {
-    background: #ffe1fc;
     background-image: linear-gradient(to top, #ffe1fc, #a4e6d3), #ffe1fc;
     background-size: auto, 256px 256px;
     background-position: center, center;
