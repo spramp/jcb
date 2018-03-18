@@ -30,7 +30,8 @@ anchor = "smart"
 
 [params]
   title = "Jan Christian Bernabe"
-  description = '<!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
+  description = '<!--[-->The Next Big Thing<!--]--><br />
+                <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
                 <!--[-->Nerd<!--]-->'
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, Ph.D."
