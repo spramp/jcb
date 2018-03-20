@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAIQ,kGAA0F;AAElG,UAAU;AAGR,aAAQ;EACP,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,UAAiC",
+"mappings": "AAIQ,8HAAsH;AAE9H,UAAU;AAGR,aAAQ;EACP,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,UAAiC",
 "sources": ["../sass/noscript.scss"],
 "names": [],
 "file": "noscript.css"
