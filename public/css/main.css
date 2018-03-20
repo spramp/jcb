@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300italic,400italic,300,400|Julius+Sans+One&effect=anaglyph");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -74,8 +74,8 @@ html {
 
 body, input, select, textarea {
   color: #ffe1fc;
-  font-family: _fontbody(family);
-  font-weight: _fontbody(weight);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.4; }
 
@@ -92,7 +92,7 @@ a {
 
 strong, b {
   color: #a4e6d3;
-  font-weight: _fontbody(weight-bold); }
+  font-weight: 600; }
 
 em, i {
   font-style: italic; }
@@ -102,23 +102,26 @@ p {
 
 h1 {
   color: #a4e6d3;
+  font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
-  letter-spacing: 0.35rem; }
+  letter-spacing: 0.2rem; }
 
 h2 {
   color: #d760b1;
+  font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
-  letter-spacing: 0.35rem; }
+  letter-spacing: 0.2rem; }
 
 h4, h5, h6 {
+  font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
-  letter-spacing: 0.35rem; }
+  letter-spacing: 0.2rem; }
   h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
@@ -144,7 +147,7 @@ h2 {
 h3 {
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.35rem; }
+  letter-spacing: 0.2rem; }
 
 a {
   color: inherit;
@@ -186,12 +189,14 @@ blockquote {
 code {
   background: rgba(138, 204, 185, 0.6);
   border-radius: 4px;
+  font-family: "Courier New", monospace;
   font-size: 0.9rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
   font-size: 0.9rem;
   margin: 0 0 2rem 0; }
   pre code {
@@ -248,8 +253,8 @@ label {
   color: #ffe1fc;
   display: block;
   font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.35rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase; }
@@ -355,7 +360,7 @@ input[type="radio"] {
     cursor: pointer;
     display: inline-block;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 0 0.5rem 0;
     padding-left: 2.65rem;
     padding-right: 0.75rem;
@@ -616,6 +621,7 @@ dl {
   margin: 0 0 2rem 0; }
   dl dt {
     display: block;
+    font-weight: 600;
     margin: 0 0 1rem 0; }
   dl dd {
     margin-left: 2rem; }
@@ -655,6 +661,7 @@ table {
   table th {
     color: rgba(0, 0, 0, 0.8);
     font-size: 0.9em;
+    font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
@@ -697,12 +704,12 @@ button,
   cursor: pointer;
   display: inline-block;
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 300;
   height: 2.75rem;
-  letter-spacing: 0.35rem;
+  letter-spacing: 0.2rem;
   line-height: 2.75rem;
   outline: 0;
-  padding: 0 1.25rem 0 1.425rem;
+  padding: 0 1.25rem 0 1.35rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -739,7 +746,8 @@ button,
   button.special,
   .button.special {
     background-color: rgba(138, 204, 185, 0.6);
-    color: #ffe1fc !important; }
+    color: #ffe1fc !important;
+    font-weight: 600; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
@@ -931,7 +939,7 @@ button {
         margin-bottom: 0; }
     #header .content p {
       text-transform: uppercase;
-      letter-spacing: 0.35rem;
+      letter-spacing: 0.2rem;
       color: palette(fg);
       font-size: 0.8rem;
       line-height: 2; }
@@ -953,9 +961,9 @@ button {
         min-width: 7.5rem;
         height: 2.75rem;
         line-height: 2.75rem;
-        padding: 0 1.25rem 0 1.6rem;
+        padding: 0 1.25rem 0 1.45rem;
         text-transform: uppercase;
-        letter-spacing: 0.35rem;
+        letter-spacing: 0.2rem;
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
@@ -1146,13 +1154,13 @@ button {
   margin-top: 2rem;
   text-align: center; }
   #footer .copyright {
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.2rem;
     font-size: 0.6rem;
     opacity: 1;
     margin-bottom: 0;
     text-transform: uppercase; }
   #footer .social {
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.2rem;
     font-size: 1rem;
     opacity: 1;
     margin-bottom: 0;
