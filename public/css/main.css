@@ -74,7 +74,7 @@ html {
 
 body, input, select, textarea {
   color: #ffe1fc;
-  font-family: "Oswald", "Open Sans", sans-serif;
+  font-family: "Dosis", "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4; }
@@ -189,14 +189,14 @@ blockquote {
 code {
   background: rgba(138, 204, 185, 0.6);
   border-radius: 4px;
-  font-family: "Dosis", "Fira Sans", sans-serif;
+  font-family: "Oswald", "Open Sans", sans-serif;
   font-size: 0.9rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Dosis", "Fira Sans", sans-serif;
+  font-family: "Oswald", "Open Sans", sans-serif;
   font-size: 0.9rem;
   margin: 0 0 2rem 0; }
   pre code {
