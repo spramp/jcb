@@ -23,7 +23,7 @@ draft = false
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
 	<input type="hidden" name="_format" value="plain" />
-	<input type="hidden" name="_next" value="/thankyou.html" />
+	<input type="hidden" name="_next" value="thankyou.html" />
 	<input type="hidden" name="_subject" value="New Message from Personal Website!" />
 	<input type="text" name="_gotcha" style="display:none" />
 	</form>
