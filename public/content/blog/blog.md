@@ -8,9 +8,14 @@ draft = false
 {{< figure class="image main" src="images/pic02.jpg" >}}
 
 **Updates Are-A-Comin!**
+
 July 31, 2018
 
-Whoa, we're in prime hurricane season already! Time does fly. The four month lag between this post and the last is, I admit, inexcusable. I do have good reasons for the time gap. Most predictably, work had consumed a lot of my time. I was busy at work on several exciting projects during that time. Before I knew it, today arrived. And gosh, tomorrow is August! This will be a quick post, as I'm in the midst of redesigning and relaunching a new version of this site. So excuse the dust and the emptiness for now. Enjoy the flock of birds on my homepage. Exciting things are on their way.
+Whoa, we're in prime hurricane season already! Time flies. The four month lag between this post and the last is, I admit, inexcusable. I _do_ have good reasons for the time gap. Most predictably, work consumed a lot of my time. I was busy working on several exciting projects in those four months. Really, I was.
+
+Gosh, tomorrow starts August!
+
+This will be a quick post, as I'm in the midst of redesigning and relaunching a new version of this site. So excuse the dust and the emptiness for now. Enjoy the flock of birds on my homepage. Exciting things are on their way.
 
 **A Hariy Few Weeks**
 
