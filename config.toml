@@ -16,7 +16,7 @@ metaDataFormat = "toml"
 publishDir = "public"
 resourceDir = "public/resources"
 staticDir = "public/static"
-title = "Jan Christian Bernabe, Ph.D. | Nerd"
+title = "Jan Christian Bernabe, Ph.D. | Polymath"
 uglyURLs = true
 
 [imaging]
@@ -32,7 +32,7 @@ anchor = "smart"
   title = "Jan Christian Bernabe"
   description = '<!--[-->The Next Big Thing<!--]--><br /><br />
                 <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br />
-                <!--[-->Nerd<!--]-->'
+                <!--[-->Your New BFF<!--]-->'
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, Ph.D."
 
