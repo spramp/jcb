@@ -106,7 +106,6 @@ anchor = "smart"
   identifier = "contact"
   url = "/contact/"
 
-
 [languages]
 [languages.en]
 languageName = "English"
