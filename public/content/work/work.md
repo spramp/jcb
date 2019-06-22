@@ -62,5 +62,5 @@ Eds. Jan Christian Bernabe, et al., *Migrant Musicians: Filipino Entertainers an
 “Archival Heaves: Im/mobilizing Icons and Bodies in the Paintings of John Yoyogi Fortes,” in *Out of the Archives: Process and Progress*. Eds., Angel Shaw and Sarita See. (New York: Asian American Arts Centre, 2009): 24-37
 
 <table>
-<tr><td class="icons"><a href="/#about"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#blog"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
+<tr><td class="icons"><a href="/#about"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#news"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
