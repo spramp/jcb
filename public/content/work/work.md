@@ -7,12 +7,12 @@ draft = false
 
 {{< figure class="image main" src="images/pic03.jpg" >}}
 
-*Downloadabe PDFs of several publications below can be found on* [Academia.com](https://cee-umich.academia.edu/JanChristianBernabe)
+*Downloadabe PDFs of several publications below can be found on* [Academia.com](https://cee-umich.academia.edu/JanChristianBernabe){:target="_blank"}
 
 **BOOKS**
 
 2017
-[*Queering Contemporary Asian American Art*](https://www.amazon.com/Queering-Contemporary-American-Lawrence-Artists/dp/0295741376/ref=sr_1_1?crid=6AGUWB8PNTTG&keywords=queering+contemporary+asian+american+art&qid=1561212429&s=gateway&sprefix=queering+asian+%2Caps%2C136&sr=8-1), University of Washington Press (2017) co-edited with Laura Kina
+[*Queering Contemporary Asian American Art*](https://www.amazon.com/Queering-Contemporary-American-Lawrence-Artists/dp/0295741376/ref=sr_1_1?crid=6AGUWB8PNTTG&keywords=queering+contemporary+asian+american+art&qid=1561212429&s=gateway&sprefix=queering+asian+%2Caps%2C136&sr=8-1){:target="_blank"}, University of Washington Press (2017) co-edited with Laura Kina
 
 **PEER-REVIEWED PUBLICATIONS**
 
