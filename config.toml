@@ -34,7 +34,7 @@ anchor = "smart"
                 <!--[--><i class="far fa-id-card fa-2x"></i><!--]--><br /><br />
                 <!--[-->You are Wecome<!--]-->'
   logo = "fas fa-bolt fa-2x"
-  copyright = "Jan Christian Bernabe, Ph.D."
+  copyright = "Jan Christian Bernabe, PhD"
 
 [params.disqus]
   site = ""
@@ -80,28 +80,28 @@ anchor = "smart"
 
 [[menu.main]]
   name = "About"
-  title = "About | JCB"
+  title = "About | Jan Christian Bernabe"
   weight = "1"
   identifier = "about"
   url = "/about/"
 
 [[menu.main]]
   name = "Work"
-  title = "Work | JCB"
+  title = "Work | Jan Christian Bernabe"
   weight = "2"
   identifier = "work"
   url = "/work/"
 
 [[menu.main]]
-  name = "Blog"
-  title = "Blog | JCB"
+  name = "News"
+  title = "News | Jan Christian Bernabe"
   weight = "3"
-  identifier = "blog"
-  url = "/blog/"
+  identifier = "news"
+  url = "/news/"
 
 [[menu.main]]
   name = "Contact"
-  title = "Contact | JCB"
+  title = "Contact | Jan Christian Bernabe"
   weight = "4"
   identifier = "contact"
   url = "/contact/"
