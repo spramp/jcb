@@ -18,7 +18,7 @@
               <div class="inner">
                 <h1>{{ .Site.Params.title | safeHTML }}</h1>
                 <p>{{ .Site.Params.description | safeHTML }}</p>
-                <p>Listen: {{ $dataJ := getJSON ($.Site.Params {"json_URL"}}</p>
+                <p>Listen: {{ $dataJ := getJSON ($.Params "json_URL") }}</p>
               </div>
             </div>
             <nav>
