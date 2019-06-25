@@ -18,7 +18,7 @@
               <div class="inner">
                 <h1>{{ .Site.Params.title | safeHTML }}</h1>
                 <p>{{ .Site.Params.description | safeHTML }}</p>
-                <p>Listen: {{ $dataJ := getJSON "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=twentysixlicks&api_key=336d6c1e30852f655412888f276a0112&limit=1&format=json" }}</p>
+                <p>Listen: {{ $dataJ := getJSON ($.Site.Params {"json_URL"}}</p>
               </div>
             </div>
             <nav>

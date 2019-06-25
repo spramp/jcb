@@ -35,6 +35,7 @@ anchor = "smart"
                 <!--[-->You are Wecome<!--]-->'
   logo = "fas fa-bolt fa-2x"
   copyright = "Jan Christian Bernabe, PhD"
+  json_url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=twentysixlicks&api_key=336d6c1e30852f655412888f276a0112&limit=1&format=json"
 
 [params.disqus]
   site = ""
