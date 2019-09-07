@@ -50,6 +50,8 @@ Book Review: “*In the Eyes of the Muses: Selections from the Clark Atlanta Uni
 “Kelvin Burzon Queers the Midwest, Catholicism, and Jose Rizal” in *Filipino American Artist Directory* (St. Louis, 2017): np.
 
 2015
+"Nothing to See Here There Never Was —an Essay in Four Parts" in exhibition catalogue for Gina Osterloh (2015): np
+
 “Visual Artists Series: Jan Bernabe - Photography Collection” in *Tayo Literary Magazine*, ed. Melissa Sipin et. al. (Los Angeles: Tayo, 2015): 82-83.
 
 2013
@@ -60,6 +62,10 @@ Eds. Jan Christian Bernabe, et al., *Migrant Musicians: Filipino Entertainers an
 
 2009
 “Archival Heaves: Im/mobilizing Icons and Bodies in the Paintings of John Yoyogi Fortes,” in *Out of the Archives: Process and Progress*. Eds., Angel Shaw and Sarita See. (New York: Asian American Arts Centre, 2009): 24-37
+
+**PODCASTS**
+2018
+"Interview with Laura Kina and Jan Christian Bernabe, 'Queering Contemporary Asian American Art'," Laura Kina, Christopher B Patterson, and Jan Christian Bernabe, *New Books in Asian American Studies*.
 
 <table>
 <tr><td class="icons"><a href="/#about"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#news"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
