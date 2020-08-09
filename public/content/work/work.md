@@ -36,7 +36,7 @@ draft = false
 **BOOK REVIEWS**
 
 2019
-Book Review: “*Diasporic Intimacies: Queer Filipinos and Canadian Imaginaries*,” eds. Robert Diaz, Marissa Largo, And Fritz Pino.” *Asian Diasporic Visual Cultures and the Americas*
+Book Review: “*Diasporic Intimacies: Queer Filipinos and Canadian Imaginaries*,” eds. Robert Diaz, Marissa Largo, And Fritz Pino. (2019)” *Asian Diasporic Visual Cultures and the Americas*
 
 2013
 Book Review: “*Photography, Film, and the African American Experience: Making a Promised Land: Harlem in 20th-Century Photography and Film* by Paula J. Massood; *Bearing Witness from Another Place: James Baldwin in Turkey*, with the foreword by Charles Johnson; *One Shot: A Selection of Photographs by Reuben V. Burrell* edited by Vanessa Thaxton-Ward (2013).” *International Review of African American Art Plus*.
