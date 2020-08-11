@@ -68,6 +68,21 @@ Eds. Jan Christian Bernabe, et al., *Migrant Musicians: Filipino Entertainers an
 2018:
 "Interview with Laura Kina and Jan Christian Bernabe, 'Queering Contemporary Asian American Art'," Laura Kina, Christopher B Patterson, and Jan Christian Bernabe, *New Books in Asian American Studies*.
 
+**COURSES TAUGHT**
+Art History and Visual Culture Studies 103: Introduction to Art History and Visual Culture Studies
+Art History and Visual Culture Studies 257: Asian/American Visual Culture
+Art History and Visual Culture Studies 258: Queer Sexualities and Visual Culture
+Art History and Visual Culture Studies 259: Post/Colonialism and Visual Culture
+Art History and Visual Culture Studies 422: Independent Study—Filipino American Visual Culture Studies
+General Studies 245: Critical and Alternative Voices
+Humanities and Sciences 115: Race, U.S. Empire, and the American Visual Archives
+Humanities and Sciences 119: Modernities, Visual Technologies, and Imagined Communities
+Humanities and Sciences 119: War and the Politics of Vision: Reading the American Visual Archives
+American Culture 211: Introduction to Ethnic Studies—Introduction to Asian/Pacific Islander American Visual Culture
+English 125: College Composition: Writing About Asian/American Visual Culture
+American Culture 217: Introduction to Native American Literature
+American Culture 301: Asians in American Film and Television
+
 <table>
 <tr><td class="icons"><a href="/#about"><i class="far fa-arrow-alt-circle-left fa-lg"></i></a><a href="/#news"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></td></tr>
 </table>
