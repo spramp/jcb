@@ -20,8 +20,8 @@ title = "Jan Christian Bernabe, Ph.D. | FLXST Contemporary Gallery Director, Cri
 uglyURLs = true
 
 [imaging]
-resampleFilter = "Gaussian"
-quality = 60
+resampleFilter = "UnsharpMask"
+quality = 100
 anchor = "smart"
 
 [outputs]
@@ -94,11 +94,11 @@ anchor = "smart"
   url = "/work/"
 
 [[menu.main]]
-  name = "News"
-  title = "News | Jan Christian Bernabe Ph.D. | FLXST Contemporary Gallery Director, Critic and Scholar, Polymath"
+  name = "Faves"
+  title = "faves | Jan Christian Bernabe Ph.D. | FLXST Contemporary Gallery Director, Critic and Scholar, Polymath"
   weight = "3"
-  identifier = "news"
-  url = "/news/"
+  identifier = "faves"
+  url = "/faves/"
 
 [[menu.main]]
   name = "Contact"
