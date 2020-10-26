@@ -19,10 +19,10 @@ staticDir = "public/static"
 title = "Jan Christian Bernabe, Ph.D. | FLXST Contemporary Gallery Director, Critic and Scholar, Polymath"
 uglyURLs = true
 
-[imaging]
-resampleFilter = "UnsharpMask"
-quality = 100
-anchor = "smart"
+#[imaging]
+#resampleFilter = "UnsharpMask"
+#quality = 100
+#anchor = "smart"
 
 [outputs]
   home = ["HTML"]
