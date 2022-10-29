@@ -28,7 +28,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-env": "^1.6.1",
     "beeper": "^1.1.1",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.27.10",
     "caniuse-lite": "^1.0.30000805",
     "css-loader": "^0.28.9",
     "date-format": "^1.2.0",
